@@ -1,0 +1,441 @@
+EESchema Schematic File Version 2  date tor  9 maj 2013 23:10:04
+LIBS:power
+LIBS:device
+LIBS:transistors
+LIBS:conn
+LIBS:linear
+LIBS:regul
+LIBS:74xx
+LIBS:cmos4000
+LIBS:adc-dac
+LIBS:memory
+LIBS:xilinx
+LIBS:special
+LIBS:microcontrollers
+LIBS:dsp
+LIBS:microchip
+LIBS:analog_switches
+LIBS:motorola
+LIBS:texas
+LIBS:intel
+LIBS:audio
+LIBS:interface
+LIBS:digital-audio
+LIBS:philips
+LIBS:display
+LIBS:cypress
+LIBS:siliconi
+LIBS:opto
+LIBS:atmel
+LIBS:contrib
+LIBS:valves
+EELAYER 27 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date "9 may 2013"
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L R R2
+U 1 1 518C0E88
+P 3375 2400
+F 0 "R2" V 3455 2400 40  0000 C CNN
+F 1 "10k" V 3382 2401 40  0000 C CNN
+F 2 "~" V 3305 2400 30  0000 C CNN
+F 3 "~" H 3375 2400 30  0000 C CNN
+	1    3375 2400
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R1
+U 1 1 518C0E95
+P 3325 2850
+F 0 "R1" V 3405 2850 40  0000 C CNN
+F 1 "1k" V 3332 2851 40  0000 C CNN
+F 2 "~" V 3255 2850 30  0000 C CNN
+F 3 "~" H 3325 2850 30  0000 C CNN
+	1    3325 2850
+	0    -1   -1   0   
+$EndComp
+$Comp
+L SW_PUSH SW1
+U 1 1 518C0EC6
+P 3825 2650
+F 0 "SW1" H 3975 2760 50  0000 C CNN
+F 1 "SW_PUSH" H 3825 2570 50  0000 C CNN
+F 2 "~" H 3825 2650 60  0000 C CNN
+F 3 "~" H 3825 2650 60  0000 C CNN
+	1    3825 2650
+	1    0    0    -1  
+$EndComp
+$Comp
+L LED D1
+U 1 1 518C0F35
+P 2775 2850
+F 0 "D1" H 2950 2750 50  0000 C CNN
+F 1 "LED" H 2775 2750 50  0000 C CNN
+F 2 "~" H 2775 2850 60  0000 C CNN
+F 3 "~" H 2775 2850 60  0000 C CNN
+	1    2775 2850
+	1    0    0    -1  
+$EndComp
+$Comp
+L CONN_4 P1
+U 1 1 518C0F5F
+P 2100 2700
+F 0 "P1" V 2050 2700 50  0000 C CNN
+F 1 "CONN_4" V 2150 2700 50  0000 C CNN
+F 2 "~" H 2100 2700 60  0000 C CNN
+F 3 "~" H 2100 2700 60  0000 C CNN
+	1    2100 2700
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	2450 2850 2575 2850
+Wire Wire Line
+	2975 2850 3075 2850
+Wire Wire Line
+	2450 2650 3525 2650
+Connection ~ 3375 2650
+Wire Wire Line
+	2450 2750 3575 2750
+Wire Wire Line
+	3575 2750 3575 2850
+Wire Wire Line
+	3575 2850 4125 2850
+Wire Wire Line
+	4125 2850 4125 2650
+Wire Wire Line
+	2450 2550 3200 2550
+Wire Wire Line
+	3200 2550 3200 2150
+Wire Wire Line
+	3200 2150 3375 2150
+Text Label 2625 2550 0    60   ~ 0
++5V
+Text Label 2625 2650 0    60   ~ 0
+SIG1
+Text Label 2625 2750 0    60   ~ 0
+GND
+Text Label 2475 2850 0    60   ~ 0
+LED1
+$Comp
+L CONN_10 P3
+U 1 1 518C10D5
+P 3775 3875
+F 0 "P3" V 3725 3875 60  0000 C CNN
+F 1 "CONN_10" V 3825 3875 60  0000 C CNN
+F 2 "~" H 3775 3875 60  0000 C CNN
+F 3 "~" H 3775 3875 60  0000 C CNN
+	1    3775 3875
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3425 4325 3225 4325
+Wire Wire Line
+	3225 4325 3225 4550
+Wire Wire Line
+	3425 4225 3100 4225
+Wire Wire Line
+	3100 4225 3100 4575
+Wire Wire Line
+	3100 4575 2950 4575
+Wire Wire Line
+	2950 4575 2950 4400
+Text Label 2950 4400 2    60   ~ 0
++5V
+Text Label 3225 4550 0    60   ~ 0
+GND
+Wire Wire Line
+	3425 4125 2750 4125
+Wire Wire Line
+	3425 4025 2750 4025
+Wire Wire Line
+	3425 3925 2750 3925
+Wire Wire Line
+	3425 3825 2750 3825
+Wire Wire Line
+	3425 3725 2750 3725
+Wire Wire Line
+	3425 3625 2750 3625
+Wire Wire Line
+	3425 3525 2750 3525
+Wire Wire Line
+	3425 3425 2775 3425
+Text Label 2775 3425 0    60   ~ 0
+SIG0
+Text Label 2775 3525 0    60   ~ 0
+SIG1
+Text Label 2775 3625 0    60   ~ 0
+SIG2
+Text Label 2775 3725 0    60   ~ 0
+SIG3
+Text Label 2750 3825 0    60   ~ 0
+LED0
+Text Label 2750 3925 0    60   ~ 0
+LED1
+Text Label 2750 4025 0    60   ~ 0
+LED2
+Text Label 2750 4125 0    60   ~ 0
+LED3
+$Comp
+L R R7
+U 1 1 518C1205
+P 5850 3700
+F 0 "R7" V 5930 3700 40  0000 C CNN
+F 1 "10k" V 5857 3701 40  0000 C CNN
+F 2 "~" V 5780 3700 30  0000 C CNN
+F 3 "~" H 5850 3700 30  0000 C CNN
+	1    5850 3700
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R5
+U 1 1 518C120B
+P 5800 4150
+F 0 "R5" V 5880 4150 40  0000 C CNN
+F 1 "1k" V 5807 4151 40  0000 C CNN
+F 2 "~" V 5730 4150 30  0000 C CNN
+F 3 "~" H 5800 4150 30  0000 C CNN
+	1    5800 4150
+	0    -1   -1   0   
+$EndComp
+$Comp
+L SW_PUSH SW3
+U 1 1 518C1211
+P 6300 3950
+F 0 "SW3" H 6450 4060 50  0000 C CNN
+F 1 "SW_PUSH" H 6300 3870 50  0000 C CNN
+F 2 "~" H 6300 3950 60  0000 C CNN
+F 3 "~" H 6300 3950 60  0000 C CNN
+	1    6300 3950
+	1    0    0    -1  
+$EndComp
+$Comp
+L LED D3
+U 1 1 518C1217
+P 5250 4150
+F 0 "D3" H 5425 4050 50  0000 C CNN
+F 1 "LED" H 5250 4050 50  0000 C CNN
+F 2 "~" H 5250 4150 60  0000 C CNN
+F 3 "~" H 5250 4150 60  0000 C CNN
+	1    5250 4150
+	1    0    0    -1  
+$EndComp
+$Comp
+L CONN_4 P4
+U 1 1 518C121D
+P 4575 4000
+F 0 "P4" V 4525 4000 50  0000 C CNN
+F 1 "CONN_4" V 4625 4000 50  0000 C CNN
+F 2 "~" H 4575 4000 60  0000 C CNN
+F 3 "~" H 4575 4000 60  0000 C CNN
+	1    4575 4000
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	4925 4150 5050 4150
+Wire Wire Line
+	5450 4150 5550 4150
+Wire Wire Line
+	4925 3950 6000 3950
+Connection ~ 5850 3950
+Wire Wire Line
+	4925 4050 6050 4050
+Wire Wire Line
+	6050 4050 6050 4150
+Wire Wire Line
+	6050 4150 6600 4150
+Wire Wire Line
+	6600 4150 6600 3950
+Wire Wire Line
+	4925 3850 5675 3850
+Wire Wire Line
+	5675 3850 5675 3450
+Wire Wire Line
+	5675 3450 5850 3450
+Text Label 5100 3850 0    60   ~ 0
++5V
+Text Label 5100 3950 0    60   ~ 0
+SIG3
+Text Label 5100 4050 0    60   ~ 0
+GND
+Text Label 4950 4150 0    60   ~ 0
+LED3
+$Comp
+L R R8
+U 1 1 518C1232
+P 5900 2500
+F 0 "R8" V 5980 2500 40  0000 C CNN
+F 1 "10k" V 5907 2501 40  0000 C CNN
+F 2 "~" V 5830 2500 30  0000 C CNN
+F 3 "~" H 5900 2500 30  0000 C CNN
+	1    5900 2500
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R6
+U 1 1 518C1238
+P 5850 2950
+F 0 "R6" V 5930 2950 40  0000 C CNN
+F 1 "1k" V 5857 2951 40  0000 C CNN
+F 2 "~" V 5780 2950 30  0000 C CNN
+F 3 "~" H 5850 2950 30  0000 C CNN
+	1    5850 2950
+	0    -1   -1   0   
+$EndComp
+$Comp
+L SW_PUSH SW4
+U 1 1 518C123E
+P 6350 2750
+F 0 "SW4" H 6500 2860 50  0000 C CNN
+F 1 "SW_PUSH" H 6350 2670 50  0000 C CNN
+F 2 "~" H 6350 2750 60  0000 C CNN
+F 3 "~" H 6350 2750 60  0000 C CNN
+	1    6350 2750
+	1    0    0    -1  
+$EndComp
+$Comp
+L LED D4
+U 1 1 518C1244
+P 5300 2950
+F 0 "D4" H 5475 2850 50  0000 C CNN
+F 1 "LED" H 5300 2850 50  0000 C CNN
+F 2 "~" H 5300 2950 60  0000 C CNN
+F 3 "~" H 5300 2950 60  0000 C CNN
+	1    5300 2950
+	1    0    0    -1  
+$EndComp
+$Comp
+L CONN_4 P5
+U 1 1 518C124A
+P 4625 2800
+F 0 "P5" V 4575 2800 50  0000 C CNN
+F 1 "CONN_4" V 4675 2800 50  0000 C CNN
+F 2 "~" H 4625 2800 60  0000 C CNN
+F 3 "~" H 4625 2800 60  0000 C CNN
+	1    4625 2800
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	4975 2950 5100 2950
+Wire Wire Line
+	5500 2950 5600 2950
+Wire Wire Line
+	4975 2750 6050 2750
+Connection ~ 5900 2750
+Wire Wire Line
+	4975 2850 6100 2850
+Wire Wire Line
+	6100 2850 6100 2950
+Wire Wire Line
+	6100 2950 6650 2950
+Wire Wire Line
+	6650 2950 6650 2750
+Wire Wire Line
+	4975 2650 5725 2650
+Wire Wire Line
+	5725 2650 5725 2250
+Wire Wire Line
+	5725 2250 5900 2250
+Text Label 5150 2650 0    60   ~ 0
++5V
+Text Label 5150 2750 0    60   ~ 0
+SIG2
+Text Label 5150 2850 0    60   ~ 0
+GND
+Text Label 5000 2950 0    60   ~ 0
+LED2
+$Comp
+L R R4
+U 1 1 518C125F
+P 3425 1400
+F 0 "R4" V 3505 1400 40  0000 C CNN
+F 1 "10k" V 3432 1401 40  0000 C CNN
+F 2 "~" V 3355 1400 30  0000 C CNN
+F 3 "~" H 3425 1400 30  0000 C CNN
+	1    3425 1400
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R3
+U 1 1 518C1265
+P 3375 1850
+F 0 "R3" V 3455 1850 40  0000 C CNN
+F 1 "1k" V 3382 1851 40  0000 C CNN
+F 2 "~" V 3305 1850 30  0000 C CNN
+F 3 "~" H 3375 1850 30  0000 C CNN
+	1    3375 1850
+	0    -1   -1   0   
+$EndComp
+$Comp
+L SW_PUSH SW2
+U 1 1 518C126B
+P 3875 1650
+F 0 "SW2" H 4025 1760 50  0000 C CNN
+F 1 "SW_PUSH" H 3875 1570 50  0000 C CNN
+F 2 "~" H 3875 1650 60  0000 C CNN
+F 3 "~" H 3875 1650 60  0000 C CNN
+	1    3875 1650
+	1    0    0    -1  
+$EndComp
+$Comp
+L LED D2
+U 1 1 518C1271
+P 2825 1850
+F 0 "D2" H 3000 1750 50  0000 C CNN
+F 1 "LED" H 2825 1750 50  0000 C CNN
+F 2 "~" H 2825 1850 60  0000 C CNN
+F 3 "~" H 2825 1850 60  0000 C CNN
+	1    2825 1850
+	1    0    0    -1  
+$EndComp
+$Comp
+L CONN_4 P2
+U 1 1 518C1277
+P 2150 1700
+F 0 "P2" V 2100 1700 50  0000 C CNN
+F 1 "CONN_4" V 2200 1700 50  0000 C CNN
+F 2 "~" H 2150 1700 60  0000 C CNN
+F 3 "~" H 2150 1700 60  0000 C CNN
+	1    2150 1700
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	2500 1850 2625 1850
+Wire Wire Line
+	3025 1850 3125 1850
+Wire Wire Line
+	2500 1650 3575 1650
+Connection ~ 3425 1650
+Wire Wire Line
+	2500 1750 3625 1750
+Wire Wire Line
+	3625 1750 3625 1850
+Wire Wire Line
+	3625 1850 4175 1850
+Wire Wire Line
+	4175 1850 4175 1650
+Wire Wire Line
+	2500 1550 3250 1550
+Wire Wire Line
+	3250 1550 3250 1150
+Wire Wire Line
+	3250 1150 3425 1150
+Text Label 2675 1550 0    60   ~ 0
++5V
+Text Label 2675 1650 0    60   ~ 0
+SIG0
+Text Label 2675 1750 0    60   ~ 0
+GND
+Text Label 2525 1850 0    60   ~ 0
+LED0
+$EndSCHEMATC

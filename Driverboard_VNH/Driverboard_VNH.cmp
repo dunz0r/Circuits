@@ -1,0 +1,10 @@
+Cmp-Mod V01 Created by CvPcb (2013-feb-26)-stable date = sön 28 apr 2013 21:41:08
+
+BeginCmp
+TimeStamp = /517D7814;
+Reference = IC1;
+ValeurCmp = VNH3SP30;
+IdModule  = st-microelectronics-MULTIPOWERSO-30;
+EndCmp
+
+EndListe
