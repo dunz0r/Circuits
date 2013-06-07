@@ -1,0 +1,553 @@
+EESchema Schematic File Version 2  date Sat 16 Feb 2013 17:48:26 CET
+LIBS:power
+LIBS:device
+LIBS:transistors
+LIBS:conn
+LIBS:linear
+LIBS:regul
+LIBS:74xx
+LIBS:cmos4000
+LIBS:adc-dac
+LIBS:memory
+LIBS:xilinx
+LIBS:special
+LIBS:microcontrollers
+LIBS:dsp
+LIBS:microchip
+LIBS:analog_switches
+LIBS:motorola
+LIBS:texas
+LIBS:intel
+LIBS:audio
+LIBS:interface
+LIBS:digital-audio
+LIBS:philips
+LIBS:display
+LIBS:cypress
+LIBS:siliconi
+LIBS:opto
+LIBS:atmel
+LIBS:contrib
+LIBS:valves
+LIBS:PSU_synth-cache
+EELAYER 25  0
+EELAYER END
+$Descr A4 11700 8267
+encoding utf-8
+Sheet 1 1
+Title "PSU For synth modules"
+Date "16 feb 2013"
+Rev "0.1"
+Comp "Hackoteket"
+Comment1 "Gabriel Fornaeus"
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+Connection ~ 10000 3450
+Wire Wire Line
+	10250 4900 10200 4900
+Wire Wire Line
+	10200 4900 10200 4750
+Wire Wire Line
+	10150 2750 10150 2650
+Wire Wire Line
+	10150 2650 10300 2650
+Connection ~ 9500 3250
+Wire Wire Line
+	9500 3100 9500 3250
+Wire Wire Line
+	4950 1950 4950 3250
+Wire Wire Line
+	4950 3250 7650 3250
+Connection ~ 3200 2350
+Wire Wire Line
+	2900 2350 3350 2350
+Wire Wire Line
+	3350 2350 3350 2100
+Wire Wire Line
+	3350 2100 3950 2100
+Wire Wire Line
+	4350 2300 4350 2450
+Wire Wire Line
+	3550 1200 3550 4350
+Wire Wire Line
+	2050 1200 1550 1200
+Wire Wire Line
+	1550 1200 1550 1550
+Connection ~ 8050 3650
+Wire Wire Line
+	9800 3250 8450 3250
+Connection ~ 7350 3650
+Connection ~ 7350 3250
+Connection ~ 9250 3250
+Connection ~ 9250 3650
+Connection ~ 8850 3650
+Wire Wire Line
+	9250 3650 7350 3650
+Connection ~ 8450 3250
+Connection ~ 7650 3250
+Wire Wire Line
+	7650 3250 7650 2850
+Wire Wire Line
+	7650 2850 7850 2850
+Wire Wire Line
+	6650 1950 7700 1950
+Connection ~ 8850 1950
+Wire Wire Line
+	8300 1500 8500 1500
+Connection ~ 8100 2350
+Connection ~ 9000 4800
+Wire Wire Line
+	9700 4750 9700 4800
+Wire Wire Line
+	9700 4800 8650 4800
+Wire Wire Line
+	7850 4400 7850 4800
+Wire Wire Line
+	7850 4400 8050 4400
+Connection ~ 7350 4800
+Wire Wire Line
+	7850 4800 6700 4800
+Wire Wire Line
+	6700 4800 6700 4550
+Connection ~ 9000 5200
+Connection ~ 7350 5200
+Connection ~ 8250 5200
+Wire Wire Line
+	5850 5400 4350 5400
+Wire Wire Line
+	4350 5400 4350 4750
+Wire Wire Line
+	4350 4350 4650 4350
+Wire Wire Line
+	4650 4350 4650 3700
+Wire Wire Line
+	4650 3700 5850 3700
+Wire Wire Line
+	5000 4550 5000 5700
+Wire Wire Line
+	5000 5700 6400 5700
+Wire Wire Line
+	6400 5700 6400 5200
+Wire Wire Line
+	6400 5200 9400 5200
+Wire Wire Line
+	8250 5550 8250 5100
+Wire Wire Line
+	8450 4400 8650 4400
+Wire Wire Line
+	8650 4400 8650 4800
+Connection ~ 8650 4800
+Connection ~ 7850 4800
+Wire Wire Line
+	8100 2600 8100 2250
+Wire Wire Line
+	7900 1500 7700 1500
+Wire Wire Line
+	7700 1500 7700 1950
+Wire Wire Line
+	8500 1500 8500 1950
+Connection ~ 8500 1950
+Connection ~ 8850 2350
+Connection ~ 9300 1950
+Connection ~ 9300 2350
+Connection ~ 7300 1950
+Connection ~ 7300 2350
+Connection ~ 7700 1950
+Wire Wire Line
+	8500 1950 9750 1950
+Wire Wire Line
+	9750 1950 9750 1900
+Wire Wire Line
+	8250 2850 8450 2850
+Wire Wire Line
+	8450 2850 8450 3250
+Connection ~ 8850 3250
+Wire Wire Line
+	9800 3750 9800 3800
+Wire Wire Line
+	9800 4200 9800 4350
+Wire Wire Line
+	7300 2350 9300 2350
+Wire Wire Line
+	1550 1750 1550 2350
+Wire Wire Line
+	1550 2350 1900 2350
+Wire Wire Line
+	3200 2350 3200 4750
+Wire Wire Line
+	3200 4750 3550 4750
+Wire Wire Line
+	3950 1700 3700 1700
+Wire Wire Line
+	3700 1700 3700 1200
+Wire Wire Line
+	3700 1200 2550 1200
+Connection ~ 3550 1200
+Wire Wire Line
+	5800 1100 5050 1100
+Wire Wire Line
+	5050 1100 5050 1700
+Wire Wire Line
+	5050 1700 4750 1700
+Wire Wire Line
+	4750 2100 5200 2100
+Wire Wire Line
+	5200 2100 5200 2800
+Wire Wire Line
+	5200 2800 5800 2800
+Connection ~ 9400 4800
+Wire Wire Line
+	8050 3850 8050 3550
+Wire Wire Line
+	10150 2350 10150 2450
+Wire Wire Line
+	10150 2450 10300 2450
+Wire Wire Line
+	10250 5100 10200 5100
+Wire Wire Line
+	10200 5100 10200 5350
+$Comp
+L GND #PWR01
+U 1 1 511FB6ED
+P 10200 5350
+F 0 "#PWR01" H 10200 5350 30  0001 C CNN
+F 1 "GND" H 10200 5280 30  0001 C CNN
+	1    10200 5350
+	1    0    0    -1  
+$EndComp
+$Comp
+L +5V #PWR02
+U 1 1 511FB6E9
+P 10200 4750
+F 0 "#PWR02" H 10200 4840 20  0001 C CNN
+F 1 "+5V" H 10200 4840 30  0000 C CNN
+	1    10200 4750
+	1    0    0    -1  
+$EndComp
+$Comp
+L CONN_2 P2
+U 1 1 511FB6E1
+P 10600 5000
+F 0 "P2" V 10550 5000 40  0000 C CNN
+F 1 "5V" V 10650 5000 40  0000 C CNN
+	1    10600 5000
+	1    0    0    -1  
+$EndComp
+$Comp
+L +12V #PWR03
+U 1 1 511FB6CA
+P 10150 2350
+F 0 "#PWR03" H 10150 2300 20  0001 C CNN
+F 1 "+12V" H 10150 2450 30  0000 C CNN
+	1    10150 2350
+	1    0    0    -1  
+$EndComp
+$Comp
+L -12V #PWR04
+U 1 1 511FB6C4
+P 10150 2750
+F 0 "#PWR04" H 10150 2880 20  0001 C CNN
+F 1 "-12V" H 10150 2850 30  0000 C CNN
+	1    10150 2750
+	-1   0    0    1   
+$EndComp
+$Comp
+L -12V #PWR05
+U 1 1 511FB6B6
+P 9500 3100
+F 0 "#PWR05" H 9500 3230 20  0001 C CNN
+F 1 "-12V" H 9500 3200 30  0000 C CNN
+	1    9500 3100
+	1    0    0    -1  
+$EndComp
+$Comp
+L CONN_2 P3
+U 1 1 511FB6A3
+P 10650 2550
+F 0 "P3" V 10600 2550 40  0000 C CNN
+F 1 "OUT" V 10700 2550 40  0000 C CNN
+	1    10650 2550
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR06
+U 1 1 511CBE2C
+P 4350 2450
+F 0 "#PWR06" H 4350 2450 30  0001 C CNN
+F 1 "GND" H 4350 2380 30  0001 C CNN
+	1    4350 2450
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR07
+U 1 1 511CBE93
+P 8050 3850
+F 0 "#PWR07" H 8050 3850 30  0001 C CNN
+F 1 "GND" H 8050 3780 30  0001 C CNN
+	1    8050 3850
+	1    0    0    -1  
+$EndComp
+$Comp
+L TRANSFO-AUDIO T2
+U 1 1 511CBE20
+P 4350 1900
+F 0 "T2" H 4350 2360 70  0000 C CNN
+F 1 "36VCT 1.5A" H 4360 2270 70  0000 C CNN
+	1    4350 1900
+	1    0    0    -1  
+$EndComp
+$Comp
+L CONN_2 P1
+U 1 1 511CBD7B
+P 1200 1650
+F 0 "P1" V 1150 1650 40  0000 C CNN
+F 1 "POWER IN" V 1250 1650 40  0000 C CNN
+	1    1200 1650
+	-1   0    0    1   
+$EndComp
+$Comp
+L SPST SW1
+U 1 1 511CBD4F
+P 2400 2350
+F 0 "SW1" H 2400 2500 70  0000 C CNN
+F 1 "POWER" H 2400 2250 70  0000 C CNN
+	1    2400 2350
+	1    0    0    -1  
+$EndComp
+$Comp
+L FUSE F1
+U 1 1 511CBD34
+P 2300 1200
+F 0 "F1" H 2400 1250 40  0000 C CNN
+F 1 "1.5A" H 2200 1150 40  0000 C CNN
+	1    2300 1200
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR08
+U 1 1 511CBC9D
+P 9800 4350
+F 0 "#PWR08" H 9800 4350 30  0001 C CNN
+F 1 "GND" H 9800 4280 30  0001 C CNN
+	1    9800 4350
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R1
+U 1 1 511CBC85
+P 9800 3500
+F 0 "R1" V 9880 3500 50  0000 C CNN
+F 1 "1.5k" V 9800 3500 50  0000 C CNN
+	1    9800 3500
+	1    0    0    -1  
+$EndComp
+$Comp
+L LED D9
+U 1 1 511CBC6F
+P 9800 4000
+F 0 "D9" H 9800 4100 50  0000 C CNN
+F 1 "LED" H 9800 3900 50  0000 C CNN
+	1    9800 4000
+	0    -1   -1   0   
+$EndComp
+$Comp
+L DIODE D6
+U 1 1 511CBC4F
+P 9250 3450
+F 0 "D6" H 9250 3550 40  0000 C CNN
+F 1 "1N4002" H 9250 3350 40  0000 C CNN
+	1    9250 3450
+	0    1    1    0   
+$EndComp
+$Comp
+L DIODE D3
+U 1 1 511CBC26
+P 8050 2850
+F 0 "D3" H 8050 2950 40  0000 C CNN
+F 1 "1N4002" H 8050 2750 40  0000 C CNN
+	1    8050 2850
+	1    0    0    -1  
+$EndComp
+$Comp
+L CP1 C5
+U 1 1 511CBC14
+P 8850 3450
+F 0 "C5" H 8900 3550 50  0000 L CNN
+F 1 "10µF" H 8900 3350 50  0000 L CNN
+	1    8850 3450
+	1    0    0    -1  
+$EndComp
+$Comp
+L +12V #PWR09
+U 1 1 511CBB56
+P 9750 1900
+F 0 "#PWR09" H 9750 1850 20  0001 C CNN
+F 1 "+12V" H 9750 2000 30  0000 C CNN
+	1    9750 1900
+	1    0    0    -1  
+$EndComp
+$Comp
+L DIODE D4
+U 1 1 511CBAFB
+P 8100 1500
+F 0 "D4" H 8100 1600 40  0000 C CNN
+F 1 "1N4002" H 8100 1400 40  0000 C CNN
+	1    8100 1500
+	-1   0    0    1   
+$EndComp
+$Comp
+L GND #PWR010
+U 1 1 511CBACC
+P 8100 2600
+F 0 "#PWR010" H 8100 2600 30  0001 C CNN
+F 1 "GND" H 8100 2530 30  0001 C CNN
+	1    8100 2600
+	1    0    0    -1  
+$EndComp
+$Comp
+L +5V #PWR011
+U 1 1 511CBAA2
+P 9700 4750
+F 0 "#PWR011" H 9700 4840 20  0001 C CNN
+F 1 "+5V" H 9700 4840 30  0000 C CNN
+	1    9700 4750
+	1    0    0    -1  
+$EndComp
+$Comp
+L DIODE D5
+U 1 1 511CBA78
+P 8250 4400
+F 0 "D5" H 8250 4500 40  0000 C CNN
+F 1 "1N4002" H 8250 4300 40  0000 C CNN
+	1    8250 4400
+	-1   0    0    1   
+$EndComp
+$Comp
+L GND #PWR012
+U 1 1 511CBA4F
+P 8250 5550
+F 0 "#PWR012" H 8250 5550 30  0001 C CNN
+F 1 "GND" H 8250 5480 30  0001 C CNN
+	1    8250 5550
+	1    0    0    -1  
+$EndComp
+$Comp
+L DIODE D8
+U 1 1 511CB9C8
+P 9400 5000
+F 0 "D8" H 9400 5100 40  0000 C CNN
+F 1 "1N4002" H 9400 4900 40  0000 C CNN
+	1    9400 5000
+	0    -1   -1   0   
+$EndComp
+$Comp
+L DIODE D7
+U 1 1 511CB9B0
+P 9300 2150
+F 0 "D7" H 9300 2250 40  0000 C CNN
+F 1 "1N4002" H 9300 2050 40  0000 C CNN
+	1    9300 2150
+	0    -1   -1   0   
+$EndComp
+$Comp
+L CP1 C6
+U 1 1 511CB999
+P 9000 5000
+F 0 "C6" H 9050 5100 50  0000 L CNN
+F 1 "10µF" H 9050 4900 50  0000 L CNN
+	1    9000 5000
+	1    0    0    -1  
+$EndComp
+$Comp
+L CP1 C3
+U 1 1 511CB997
+P 7350 5000
+F 0 "C3" H 7400 5100 50  0000 L CNN
+F 1 "2200µF" H 7400 4900 50  0000 L CNN
+	1    7350 5000
+	1    0    0    -1  
+$EndComp
+$Comp
+L CP1 C2
+U 1 1 511CB994
+P 7350 3450
+F 0 "C2" H 7400 3550 50  0000 L CNN
+F 1 "1000µF" H 7400 3350 50  0000 L CNN
+	1    7350 3450
+	1    0    0    -1  
+$EndComp
+$Comp
+L CP1 C4
+U 1 1 511CB98F
+P 8850 2150
+F 0 "C4" H 8900 2250 50  0000 L CNN
+F 1 "10µF" H 8900 2050 50  0000 L CNN
+	1    8850 2150
+	1    0    0    -1  
+$EndComp
+$Comp
+L CP1 C1
+U 1 1 511CB98B
+P 7300 2150
+F 0 "C1" H 7350 2250 50  0000 L CNN
+F 1 "1000µF" H 7350 2050 50  0000 L CNN
+	1    7300 2150
+	1    0    0    -1  
+$EndComp
+$Comp
+L LM7812 U2
+U 1 1 511CB974
+P 8100 2000
+F 0 "U2" H 8250 1804 60  0000 C CNN
+F 1 "LM7815" H 8100 2200 60  0000 C CNN
+	1    8100 2000
+	1    0    0    -1  
+$EndComp
+$Comp
+L LM7805 U3
+U 1 1 511CB966
+P 8250 4850
+F 0 "U3" H 8400 4654 60  0000 C CNN
+F 1 "LM7805" H 8250 5050 60  0000 C CNN
+	1    8250 4850
+	1    0    0    -1  
+$EndComp
+$Comp
+L LM7912 U1
+U 1 1 511CB95C
+P 8050 3300
+F 0 "U1" H 8200 3105 60  0000 C CNN
+F 1 "LM7915" H 8050 3500 60  0000 C CNN
+	1    8050 3300
+	1    0    0    -1  
+$EndComp
+$Comp
+L TRANSFO T1
+U 1 1 511CB8D3
+P 3950 4550
+F 0 "T1" H 3950 4800 70  0000 C CNN
+F 1 "9V 1A" H 3950 4250 70  0000 C CNN
+	1    3950 4550
+	1    0    0    -1  
+$EndComp
+$Comp
+L BRIDGE D1
+U 1 1 511CB8AF
+P 5800 1950
+F 0 "D1" H 5800 2000 70  0000 C CNN
+F 1 "BRIDGE" H 5800 1900 70  0000 C CNN
+	1    5800 1950
+	1    0    0    -1  
+$EndComp
+$Comp
+L BRIDGE D2
+U 1 1 511CB8A7
+P 5850 4550
+F 0 "D2" H 5850 4600 70  0000 C CNN
+F 1 "BRIDGE" H 5850 4500 70  0000 C CNN
+	1    5850 4550
+	1    0    0    -1  
+$EndComp
+$EndSCHEMATC

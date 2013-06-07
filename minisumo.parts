@@ -1,0 +1,58 @@
+Partlist
+
+Exported from mini.sch at 21 Aug 2012 03:09:29
+
+EAGLE Version 6.1.0 Copyright (c) 1988-2012 CadSoft
+
+Assembly variant: 
+
+Part      Value          Device          Package      Library             Sheet
+
++         PTR1PAD1-13Y   PTR1PAD1-13Y    P1-13Y       testpad             1
+-         PTR1PAD1-13Y   PTR1PAD1-13Y    P1-13Y       testpad             1
+C1        100n           C-EU025-025X050 C025-025X050 my-rcl              1
+C2        100n           C-EU025-025X050 C025-025X050 my-rcl              1
+C3        100u           CPOL-EUE2.5-7   E2,5-7       my-rcl              1
+C4        100n           C-EU025-025X050 C025-025X050 my-rcl              1
+C5        100n           C-EU025-025X050 C025-025X050 my-rcl              1
+C6        100u           CPOL-EUE2.5-7   E2,5-7       my-rcl              1
+C7        100n           C-EU025-025X050 C025-025X050 my-rcl              1
+C8        100n           C-EU025-025X050 C025-025X050 my-rcl              1
+C9        100n           C-EU025-025X050 C025-025X050 my-rcl              1
+C10       100u           CPOL-EUE2.5-7   E2,5-7       my-rcl              1
+C11       100n           C-EU025-025X050 C025-025X050 my-rcl              1
+C12       100n           C-EU025-025X050 C025-025X050 my-rcl              1
+C13       100n           C-EU025-025X050 C025-025X050 my-rcl              1
+C14       22pF           C-EU025-024X044 C025-024X044 resistor            1
+C15       22pF           C-EU025-024X044 C025-024X044 resistor            1
+CON1                     FTDI-TTL232R    MA06-1       mylib4              1
+CR1                      DIODE-1ARECT-2V DO41-2V      mylib4              1
+CRESET    100n           C-EU025-025X050 C025-025X050 my-rcl              1
+GND                      PINHD-1X5       1X05         pinhead             1
+IC1       ATmega168      AT90S4433P      DIL28-3      atmel               1
+IC2       7805TV         7805TV          TO220V       linear              1
+IC4       L298           L298            MULTIWATT-15 st-microelectronics 1
+JP1                      PINHD-1X1       1X01         pinhead             1
+JP2                      PINHD-1X7       1X07         pinhead             1
+JP3                      PINHD-1X6       1X06         pinhead             1
+JP4                      PINHD-1X2       1X02         pinhead             1
+JP5                      PINHD-1X2       1X02         pinhead             1
+JP6                      PINHD-1X1       1X01         pinhead             1
+JP7                      PINHD-1X1       1X01         pinhead             1
+LED1                     LED3MM          LED3MM       led                 1
+M00       PTR1PAD1-13Y   PTR1PAD1-13Y    P1-13Y       testpad             1
+M01       PTR1PAD1-13Y   PTR1PAD1-13Y    P1-13Y       testpad             1
+M10       PTR1PAD1-13Y   PTR1PAD1-13Y    P1-13Y       testpad             1
+M11       PTR1PAD1-13Y   PTR1PAD1-13Y    P1-13Y       testpad             1
+ON                       PINHD-1X2       1X02         pinhead             1
+Q1                       CRYSTALHC49S    HC49/S       crystal             1
+R1        10k            R-EU_0204/5     0204/5       my-rcl              1
+R2        300            R-EU_0204/5     0204/5       my-rcl              1
+R3        10k            R-EU_0204/5     0204/5       my-rcl              1
+R4        10k            R-EU_0204/5     0204/5       my-rcl              1
+S1                       10-XX           B3F-10XX     switch-omron        1
+TP1       PTR1PAD1-13    PTR1PAD1-13     P1-13        testpad             1
+TP2       PTR1PAD1-13    PTR1PAD1-13     P1-13        testpad             1
+TP3       PTR1PAD1-13    PTR1PAD1-13     P1-13        testpad             1
+TP4       PTR1PAD1-13    PTR1PAD1-13     P1-13        testpad             1
+TRIG_SENS                PINHD-1X2       1X02         pinhead             1

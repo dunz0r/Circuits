@@ -1,0 +1,216 @@
+# EESchema Netlist Version 1.1 created  Thu 14 Feb 2013 02:31:54 CET
+(
+ ( /511C3888 $noname  C4 470uF {Lib=CP1}
+  (    1 VCC )
+  (    2 GND )
+ )
+ ( /511C36FE $noname  P1 CONN_2 {Lib=CONN_2}
+  (    1 GND )
+  (    2 VCC )
+ )
+ ( /511C36F3 $noname  C3 100nF {Lib=C}
+  (    1 VCC )
+  (    2 GND )
+ )
+ ( /511C35B0 $noname  P3 CONN_12 {Lib=CONN_12}
+  (    1 N-000008 )
+  (    2 N-000009 )
+  (    3 N-000010 )
+  (    4 N-000003 )
+  (    5 N-000001 )
+  (    6 N-000011 )
+  (    7 N-000019 )
+  (    8 N-000015 )
+  (    9 N-000014 )
+  (   10 N-000002 )
+  (   11 N-000007 )
+  (   12 N-000016 )
+ )
+ ( /511C355F $noname  P2 CONN_2 {Lib=CONN_2}
+  (    1 N-000017 )
+  (    2 N-000006 )
+ )
+ ( /511C3424 $noname  C2 22pF {Lib=C}
+  (    1 GND )
+  (    2 N-000004 )
+ )
+ ( /511C3420 $noname  C1 22pF {Lib=C}
+  (    1 GND )
+  (    2 N-000020 )
+ )
+ ( /511C340E $noname  X1 CRYSTAL {Lib=CRYSTAL}
+  (    1 N-000020 )
+  (    2 N-000004 )
+ )
+ ( /511C3382 $noname  R1 R {Lib=R}
+  (    1 N-000012 )
+  (    2 GND )
+ )
+ ( /511C3371 $noname  D3 LED {Lib=LED}
+  (    1 N-000018 )
+  (    2 N-000012 )
+ )
+ ( /511C336B $noname  D1 LED {Lib=LED}
+  (    1 N-000018 )
+  (    2 N-000012 )
+ )
+ ( /511C335B $noname  D2 LED {Lib=LED}
+  (    1 N-000018 )
+  (    2 N-000012 )
+ )
+ ( /511C3126 DIP20  IC1 ATTINY2313-P {Lib=ATTINY2313-P}
+  (    1 ? )
+  (    2 N-000014 )
+  (    3 N-000002 )
+  (    4 N-000020 )
+  (    5 N-000004 )
+  (    6 N-000017 )
+  (    7 N-000006 )
+  (    8 N-000007 )
+  (    9 N-000016 )
+  (   10 GND )
+  (   11 N-000018 )
+  (   12 N-000008 )
+  (   13 N-000009 )
+  (   14 N-000010 )
+  (   15 N-000003 )
+  (   16 N-000001 )
+  (   17 N-000011 )
+  (   18 N-000019 )
+  (   19 N-000015 )
+  (   20 VCC )
+ )
+)
+*
+{ Allowed footprints by component:
+$component C4
+ CP*
+ SM*
+$endlist
+$component C3
+ SM*
+ C?
+ C1-1
+$endlist
+$component C2
+ SM*
+ C?
+ C1-1
+$endlist
+$component C1
+ SM*
+ C?
+ C1-1
+$endlist
+$component R1
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component D3
+ LED-3MM
+ LED-5MM
+ LED-10MM
+ LED-0603
+ LED-0805
+ LED-1206
+ LEDV
+$endlist
+$component D1
+ LED-3MM
+ LED-5MM
+ LED-10MM
+ LED-0603
+ LED-0805
+ LED-1206
+ LEDV
+$endlist
+$component D2
+ LED-3MM
+ LED-5MM
+ LED-10MM
+ LED-0603
+ LED-0805
+ LED-1206
+ LEDV
+$endlist
+$endfootprintlist
+}
+{ Pin List by Nets
+Net 1 "" ""
+ P3 5
+ IC1 16
+Net 2 "" ""
+ IC1 3
+ P3 10
+Net 3 "" ""
+ P3 4
+ IC1 15
+Net 4 "" ""
+ X1 2
+ C2 2
+ IC1 5
+Net 5 "VCC" "VCC"
+ C3 1
+ IC1 20
+ P1 2
+ C4 1
+Net 6 "" ""
+ P2 2
+ IC1 7
+Net 7 "" ""
+ P3 11
+ IC1 8
+Net 8 "" ""
+ IC1 12
+ P3 1
+Net 9 "" ""
+ IC1 13
+ P3 2
+Net 10 "" ""
+ IC1 14
+ P3 3
+Net 11 "" ""
+ IC1 17
+ P3 6
+Net 12 "" ""
+ D2 2
+ D1 2
+ D3 2
+ R1 1
+Net 14 "" ""
+ IC1 2
+ P3 9
+Net 15 "" ""
+ P3 8
+ IC1 19
+Net 16 "" ""
+ P3 12
+ IC1 9
+Net 17 "" ""
+ P2 1
+ IC1 6
+Net 18 "" ""
+ IC1 11
+ D3 1
+ D1 1
+ D2 1
+Net 19 "" ""
+ IC1 18
+ P3 7
+Net 20 "" ""
+ C1 2
+ X1 1
+ IC1 4
+Net 21 "GND" "GND"
+ C2 1
+ C1 1
+ C3 2
+ R1 2
+ IC1 10
+ C4 2
+ P1 1
+}
+#End

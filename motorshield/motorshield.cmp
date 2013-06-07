@@ -1,0 +1,171 @@
+Cmp-Mod V01 Created by CvPcb (2013-mar-30)-stable date = mån 20 maj 2013 18:07:10
+
+BeginCmp
+TimeStamp = /519A486C;
+Reference = C1;
+ValeurCmp = 560uF;
+IdModule  = CV3-30PF;
+EndCmp
+
+BeginCmp
+TimeStamp = /519A4BEF;
+Reference = C2;
+ValeurCmp = 560uF;
+IdModule  = CV3-30PF;
+EndCmp
+
+BeginCmp
+TimeStamp = /519A504F;
+Reference = D1;
+ValeurCmp = BLUE;
+IdModule  = LED-0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /519A506D;
+Reference = D2;
+ValeurCmp = RED;
+IdModule  = LED-0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /519A535F;
+Reference = D3;
+ValeurCmp = LED;
+IdModule  = LED-0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /519A5340;
+Reference = D4;
+ValeurCmp = BLUE;
+IdModule  = LED-0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /519A5346;
+Reference = D5;
+ValeurCmp = RED;
+IdModule  = LED-0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /519A4192;
+Reference = P1;
+ValeurCmp = VCC;
+IdModule  = PIN_ARRAY_2X1;
+EndCmp
+
+BeginCmp
+TimeStamp = /519A3F0A;
+Reference = P2;
+ValeurCmp = M0;
+IdModule  = PIN_ARRAY_2X1;
+EndCmp
+
+BeginCmp
+TimeStamp = /519A420E;
+Reference = P3;
+ValeurCmp = M1;
+IdModule  = PIN_ARRAY_2X1;
+EndCmp
+
+BeginCmp
+TimeStamp = /519A4660;
+Reference = R1;
+ValeurCmp = 1k;
+IdModule  = SM0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /519A4451;
+Reference = R2;
+ValeurCmp = 1k;
+IdModule  = SM0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /519A444B;
+Reference = R3;
+ValeurCmp = 1k;
+IdModule  = SM0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /519A4439;
+Reference = R4;
+ValeurCmp = 1k;
+IdModule  = SM0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /519A4BDB;
+Reference = R5;
+ValeurCmp = 1k;
+IdModule  = SM0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /519A4BC2;
+Reference = R6;
+ValeurCmp = 1k;
+IdModule  = SM0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /519A4BBC;
+Reference = R7;
+ValeurCmp = 1k;
+IdModule  = SM0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /519A4BB6;
+Reference = R8;
+ValeurCmp = 1k;
+IdModule  = SM0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /519A5081;
+Reference = R9;
+ValeurCmp = 1k;
+IdModule  = SM0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /519A5411;
+Reference = R10;
+ValeurCmp = 1k;
+IdModule  = SM0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /519A534C;
+Reference = R11;
+ValeurCmp = 1k;
+IdModule  = SM0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /519A49D7;
+Reference = SHIELD1;
+ValeurCmp = ARDUINO_SHIELD;
+IdModule  = ARDUINO_SHIELD;
+EndCmp
+
+BeginCmp
+TimeStamp = /519A3E5A;
+Reference = U1;
+ValeurCmp = VNH3SP30;
+IdModule  = st-microelectronics-MULTIPOWERSO-30;
+EndCmp
+
+BeginCmp
+TimeStamp = /519A4B85;
+Reference = U2;
+ValeurCmp = VNH3SP30;
+IdModule  = st-microelectronics-MULTIPOWERSO-30;
+EndCmp
+
+EndListe

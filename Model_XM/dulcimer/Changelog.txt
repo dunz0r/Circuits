@@ -1,0 +1,9 @@
+$Id: Changelog.txt,v 1.3 2008-07-12 21:23:36 rschaten Exp $
+
+* Release 080710
+
+- initial release
+
+* Release 080712
+
+- fixed usbSendReport() and backslash-key on european keyboards

@@ -1,0 +1,101 @@
+Cmp-Mod V01 Created by CvPcb (2012-jan-04)-stable date = ons 13 feb 2013 19:19:25
+
+BeginCmp
+TimeStamp = /511BCF37;
+Reference = C1;
+ValeurCmp = 10uF;
+IdModule  = C1;
+EndCmp
+
+BeginCmp
+TimeStamp = /511BCF33;
+Reference = C2;
+ValeurCmp = 10nF;
+IdModule  = C1;
+EndCmp
+
+BeginCmp
+TimeStamp = /511BCF9E;
+Reference = C3;
+ValeurCmp = 10uF;
+IdModule  = C2V10;
+EndCmp
+
+BeginCmp
+TimeStamp = /5099B991;
+Reference = D1;
+ValeurCmp = LED;
+IdModule  = LED-3MM;
+EndCmp
+
+BeginCmp
+TimeStamp = /5099B993;
+Reference = D2;
+ValeurCmp = LED;
+IdModule  = LED-3MM;
+EndCmp
+
+BeginCmp
+TimeStamp = /5099B98D;
+Reference = D3;
+ValeurCmp = LED;
+IdModule  = LED-3MM;
+EndCmp
+
+BeginCmp
+TimeStamp = /511BCEB7;
+Reference = IC1;
+ValeurCmp = ATTINY2313-P;
+IdModule  = DIP-20__300;
+EndCmp
+
+BeginCmp
+TimeStamp = /511BD05D;
+Reference = P1;
+ValeurCmp = CONN_2;
+IdModule  = PIN_ARRAY_2X1;
+EndCmp
+
+BeginCmp
+TimeStamp = /511BCFF5;
+Reference = R1;
+ValeurCmp = 300;
+IdModule  = R1;
+EndCmp
+
+BeginCmp
+TimeStamp = /511BCECB;
+Reference = R2;
+ValeurCmp = 300;
+IdModule  = R1;
+EndCmp
+
+BeginCmp
+TimeStamp = /511BCED2;
+Reference = R3;
+ValeurCmp = 300;
+IdModule  = R1;
+EndCmp
+
+BeginCmp
+TimeStamp = /511BCED6;
+Reference = R4;
+ValeurCmp = 300;
+IdModule  = R1;
+EndCmp
+
+BeginCmp
+TimeStamp = /511BCFCC;
+Reference = SW1;
+ValeurCmp = SW_PUSH;
+IdModule  = SW_PUSH;
+EndCmp
+
+BeginCmp
+TimeStamp = /5099B971;
+Reference = U1;
+ValeurCmp = LM7805;
+IdModule  = LM78XX;
+EndCmp
+
+EndListe

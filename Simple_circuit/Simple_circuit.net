@@ -1,0 +1,151 @@
+# EESchema Netlist Version 1.1 created  ons 13 feb 2013 19:19:25
+(
+ ( /511BCF37 C1 C1 10uF
+  ( 1 VDD )
+  ( 2 GND )
+ )
+ ( /511BCF33 C1 C2 10nF
+  ( 1 +5V )
+  ( 2 GND )
+ )
+ ( /511BCF9E C2V10 C3 10uF
+  ( 1 +5V )
+  ( 2 GND )
+ )
+ ( /5099B991 LED-3MM D1 LED
+  ( 1 N-000002 )
+  ( 2 N-000011 )
+ )
+ ( /5099B993 LED-3MM D2 LED
+  ( 1 N-000013 )
+  ( 2 N-000012 )
+ )
+ ( /5099B98D LED-3MM D3 LED
+  ( 1 N-000020 )
+  ( 2 N-000010 )
+ )
+ ( /511BCEB7 DIP-20__300 IC1 ATTINY2313-P
+  ( 1 ? )
+  ( 2 ? )
+  ( 3 N-000002 )
+  ( 4 ? )
+  ( 5 ? )
+  ( 6 ? )
+  ( 7 ? )
+  ( 8 N-000013 )
+  ( 9 ? )
+  ( 10 GND )
+  ( 11 N-000020 )
+  ( 12 N-000024 )
+  ( 13 ? )
+  ( 14 ? )
+  ( 15 ? )
+  ( 16 ? )
+  ( 17 ? )
+  ( 18 ? )
+  ( 19 ? )
+  ( 20 +5V )
+ )
+ ( /511BD05D PIN_ARRAY_2X1 P1 CONN_2
+  ( 1 GND )
+  ( 2 VDD )
+ )
+ ( /511BCFF5 R1 R1 300
+  ( 1 N-000025 )
+  ( 2 +5V )
+ )
+ ( /511BCECB R1 R2 300
+  ( 1 N-000011 )
+  ( 2 GND )
+ )
+ ( /511BCED2 R1 R3 300
+  ( 1 N-000012 )
+  ( 2 GND )
+ )
+ ( /511BCED6 R1 R4 300
+  ( 1 N-000010 )
+  ( 2 GND )
+ )
+ ( /511BCFCC SW_PUSH SW1 SW_PUSH
+  ( 1 N-000024 )
+  ( 2 N-000025 )
+ )
+ ( /5099B971 LM78XX U1 LM7805
+  ( GND GND )
+  ( VI VDD )
+  ( VO +5V )
+ )
+)
+*
+{ Allowed footprints by component:
+$component C1
+ SM*
+ C?
+ C1-1
+$endlist
+$component C2
+ SM*
+ C?
+ C1-1
+$endlist
+$component C3
+ CP*
+ SM*
+$endlist
+$component D1
+ LED-3MM
+ LED-5MM
+ LED-10MM
+ LED-0603
+ LED-0805
+ LED-1206
+ LEDV
+$endlist
+$component D2
+ LED-3MM
+ LED-5MM
+ LED-10MM
+ LED-0603
+ LED-0805
+ LED-1206
+ LEDV
+$endlist
+$component D3
+ LED-3MM
+ LED-5MM
+ LED-10MM
+ LED-0603
+ LED-0805
+ LED-1206
+ LEDV
+$endlist
+$component R1
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R2
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R3
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R4
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$endfootprintlist
+}

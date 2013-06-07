@@ -1,0 +1,185 @@
+Cmp-Mod V01 Created by CvPcb (2012-jan-04)-stable date = Sat 16 Feb 2013 17:44:53 CET
+
+BeginCmp
+TimeStamp = /511CB98B;
+Reference = C1;
+ValeurCmp = 1000µF;
+IdModule  = C2V10;
+EndCmp
+
+BeginCmp
+TimeStamp = /511CB994;
+Reference = C2;
+ValeurCmp = 1000µF;
+IdModule  = C2V10;
+EndCmp
+
+BeginCmp
+TimeStamp = /511CB997;
+Reference = C3;
+ValeurCmp = 2200µF;
+IdModule  = C2V10;
+EndCmp
+
+BeginCmp
+TimeStamp = /511CB98F;
+Reference = C4;
+ValeurCmp = 10µF;
+IdModule  = C2V10;
+EndCmp
+
+BeginCmp
+TimeStamp = /511CBC14;
+Reference = C5;
+ValeurCmp = 10µF;
+IdModule  = C2V10;
+EndCmp
+
+BeginCmp
+TimeStamp = /511CB999;
+Reference = C6;
+ValeurCmp = 10µF;
+IdModule  = C2V10;
+EndCmp
+
+BeginCmp
+TimeStamp = /511CB8AF;
+Reference = D1;
+ValeurCmp = BRIDGE;
+IdModule  = Bridge3;
+EndCmp
+
+BeginCmp
+TimeStamp = /511CB8A7;
+Reference = D2;
+ValeurCmp = BRIDGE;
+IdModule  = Bridge3;
+EndCmp
+
+BeginCmp
+TimeStamp = /511CBC26;
+Reference = D3;
+ValeurCmp = 1N4002;
+IdModule  = D4;
+EndCmp
+
+BeginCmp
+TimeStamp = /511CBAFB;
+Reference = D4;
+ValeurCmp = 1N4002;
+IdModule  = D4;
+EndCmp
+
+BeginCmp
+TimeStamp = /511CBA78;
+Reference = D5;
+ValeurCmp = 1N4002;
+IdModule  = D4;
+EndCmp
+
+BeginCmp
+TimeStamp = /511CBC4F;
+Reference = D6;
+ValeurCmp = 1N4002;
+IdModule  = D4;
+EndCmp
+
+BeginCmp
+TimeStamp = /511CB9B0;
+Reference = D7;
+ValeurCmp = 1N4002;
+IdModule  = D4;
+EndCmp
+
+BeginCmp
+TimeStamp = /511CB9C8;
+Reference = D8;
+ValeurCmp = 1N4002;
+IdModule  = D4;
+EndCmp
+
+BeginCmp
+TimeStamp = /511CBC6F;
+Reference = D9;
+ValeurCmp = LED;
+IdModule  = LED-5MM;
+EndCmp
+
+BeginCmp
+TimeStamp = /511CBD34;
+Reference = F1;
+ValeurCmp = 1.5A;
+IdModule  = FUSE5-20;
+EndCmp
+
+BeginCmp
+TimeStamp = /511CBD7B;
+Reference = P1;
+ValeurCmp = POWER_IN;
+IdModule  = 2PIN_6mm;
+EndCmp
+
+BeginCmp
+TimeStamp = /511FB6E1;
+Reference = P2;
+ValeurCmp = 5V;
+IdModule  = PIN_ARRAY_2X1;
+EndCmp
+
+BeginCmp
+TimeStamp = /511FB6A3;
+Reference = P3;
+ValeurCmp = OUT;
+IdModule  = 2PIN_6mm;
+EndCmp
+
+BeginCmp
+TimeStamp = /511CBC85;
+Reference = R1;
+ValeurCmp = 1.5k;
+IdModule  = R3-5;
+EndCmp
+
+BeginCmp
+TimeStamp = /511CBD4F;
+Reference = SW1;
+ValeurCmp = POWER;
+IdModule  = 2PIN_6mm;
+EndCmp
+
+BeginCmp
+TimeStamp = /511CB8D3;
+Reference = T1;
+ValeurCmp = 9V_1A;
+IdModule  = Transfo-simple;
+EndCmp
+
+BeginCmp
+TimeStamp = /511CBE20;
+Reference = T2;
+ValeurCmp = 36VCT_1.5A;
+IdModule  = Transfo-double;
+EndCmp
+
+BeginCmp
+TimeStamp = /511CB95C;
+Reference = U1;
+ValeurCmp = LM7915;
+IdModule  = LM79XX;
+EndCmp
+
+BeginCmp
+TimeStamp = /511CB974;
+Reference = U2;
+ValeurCmp = LM7815;
+IdModule  = LM78XX;
+EndCmp
+
+BeginCmp
+TimeStamp = /511CB966;
+Reference = U3;
+ValeurCmp = LM7805;
+IdModule  = LM78XX;
+EndCmp
+
+EndListe

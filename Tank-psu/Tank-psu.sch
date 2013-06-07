@@ -1,0 +1,174 @@
+EESchema Schematic File Version 2  date tis 21 maj 2013 23:11:27
+LIBS:power
+LIBS:device
+LIBS:transistors
+LIBS:conn
+LIBS:linear
+LIBS:regul
+LIBS:74xx
+LIBS:cmos4000
+LIBS:adc-dac
+LIBS:memory
+LIBS:xilinx
+LIBS:special
+LIBS:microcontrollers
+LIBS:dsp
+LIBS:microchip
+LIBS:analog_switches
+LIBS:motorola
+LIBS:texas
+LIBS:intel
+LIBS:audio
+LIBS:interface
+LIBS:digital-audio
+LIBS:philips
+LIBS:display
+LIBS:cypress
+LIBS:siliconi
+LIBS:opto
+LIBS:atmel
+LIBS:contrib
+LIBS:valves
+LIBS:AMS1117
+LIBS:HBridge
+LIBS:R_ponteret
+LIBS:stm32f100
+EELAYER 27 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date "21 may 2013"
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L LM2576T U?
+U 1 1 519BE263
+P 4450 2450
+F 0 "U?" H 4300 2800 60  0000 C CNN
+F 1 "LM2576T" H 4450 2650 60  0000 C CNN
+F 2 "" H 4450 2450 60  0000 C CNN
+F 3 "" H 4450 2450 60  0000 C CNN
+	1    4450 2450
+	1    0    0    -1  
+$EndComp
+$Comp
+L CP1 C?
+U 1 1 519BE272
+P 3700 2650
+F 0 "C?" H 3750 2750 50  0000 L CNN
+F 1 "CP1" H 3750 2550 50  0000 L CNN
+F 2 "~" H 3700 2650 60  0000 C CNN
+F 3 "~" H 3700 2650 60  0000 C CNN
+	1    3700 2650
+	1    0    0    -1  
+$EndComp
+$Comp
+L ZENER D?
+U 1 1 519BE281
+P 5100 2650
+F 0 "D?" H 5100 2750 50  0000 C CNN
+F 1 "1N5822" H 5100 2550 40  0000 C CNN
+F 2 "~" H 5100 2650 60  0000 C CNN
+F 3 "~" H 5100 2650 60  0000 C CNN
+	1    5100 2650
+	0    -1   -1   0   
+$EndComp
+$Comp
+L INDUCTOR L?
+U 1 1 519BE29A
+P 5500 2450
+F 0 "L?" V 5450 2450 40  0000 C CNN
+F 1 "100uH" V 5600 2450 40  0000 C CNN
+F 2 "~" H 5500 2450 60  0000 C CNN
+F 3 "~" H 5500 2450 60  0000 C CNN
+	1    5500 2450
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	4950 2450 5200 2450
+Connection ~ 5100 2450
+$Comp
+L CP1 C?
+U 1 1 519BE2B1
+P 5900 2650
+F 0 "C?" H 5950 2750 50  0000 L CNN
+F 1 "1000uF" H 5950 2550 50  0000 L CNN
+F 2 "~" H 5900 2650 60  0000 C CNN
+F 3 "~" H 5900 2650 60  0000 C CNN
+	1    5900 2650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5800 2450 6050 2450
+Wire Wire Line
+	6050 2450 6050 2350
+Connection ~ 5900 2450
+Wire Wire Line
+	3500 2450 4000 2450
+Wire Wire Line
+	3500 2350 3500 2450
+Connection ~ 3700 2450
+$Comp
+L +BATT #PWR?
+U 1 1 519BE2DB
+P 3500 2350
+F 0 "#PWR?" H 3500 2300 20  0001 C CNN
+F 1 "+BATT" H 3500 2450 30  0000 C CNN
+F 2 "" H 3500 2350 60  0000 C CNN
+F 3 "" H 3500 2350 60  0000 C CNN
+	1    3500 2350
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR?
+U 1 1 519BE338
+P 4400 2950
+F 0 "#PWR?" H 4400 2950 30  0001 C CNN
+F 1 "GND" H 4400 2880 30  0001 C CNN
+F 2 "" H 4400 2950 60  0000 C CNN
+F 3 "" H 4400 2950 60  0000 C CNN
+	1    4400 2950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4400 2750 4400 2950
+Wire Wire Line
+	3700 2850 3700 2900
+Wire Wire Line
+	3700 2900 5900 2900
+Connection ~ 4400 2900
+Wire Wire Line
+	4550 2900 4550 2750
+Wire Wire Line
+	5100 2900 5100 2850
+Connection ~ 4550 2900
+Wire Wire Line
+	5900 2900 5900 2850
+Connection ~ 5100 2900
+$Comp
+L +5V #PWR?
+U 1 1 519BE3A3
+P 6050 2350
+F 0 "#PWR?" H 6050 2440 20  0001 C CNN
+F 1 "+5V" H 6050 2440 30  0000 C CNN
+F 2 "" H 6050 2350 60  0000 C CNN
+F 3 "" H 6050 2350 60  0000 C CNN
+	1    6050 2350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4950 2350 5100 2350
+Wire Wire Line
+	5100 2350 5100 2250
+Wire Wire Line
+	5100 2250 5900 2250
+Wire Wire Line
+	5900 2250 5900 2450
+$EndSCHEMATC

@@ -1,0 +1,52 @@
+Cmp-Mod V01 Created by CvPcb (2012-02-29 BZR 3446)-stable date = Mon 19 Mar 2012 17:25:18 CET
+
+BeginCmp
+TimeStamp = /4F675832;
+Reference = P1;
+ValeurCmp = CONN_4;
+IdModule  = PIN_ARRAY_4x1;
+EndCmp
+
+BeginCmp
+TimeStamp = /4F675858;
+Reference = R1;
+ValeurCmp = 100;
+IdModule  = R1;
+EndCmp
+
+BeginCmp
+TimeStamp = /4F675841;
+Reference = R2;
+ValeurCmp = 100;
+IdModule  = R1;
+EndCmp
+
+BeginCmp
+TimeStamp = /4F675A5D;
+Reference = R3;
+ValeurCmp = 10k;
+IdModule  = R1;
+EndCmp
+
+BeginCmp
+TimeStamp = /4F675A4E;
+Reference = R4;
+ValeurCmp = 10K;
+IdModule  = R1;
+EndCmp
+
+BeginCmp
+TimeStamp = /4F6756EE;
+Reference = U1;
+ValeurCmp = OPTO-TRANSISTOR4;
+IdModule  = OPTORESISTOR_NSL-32;
+EndCmp
+
+BeginCmp
+TimeStamp = /4F675703;
+Reference = U2;
+ValeurCmp = OPTO-TRANSISTOR4;
+IdModule  = OPTORESISTOR_NSL-32;
+EndCmp
+
+EndListe

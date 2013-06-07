@@ -1,0 +1,98 @@
+# EESchema Netlist Version 1.1 created  Mon 19 Mar 2012 17:22:33 CET
+(
+ ( /4F6756EE $noname  U1 OPTO-TRANSISTOR4 {Lib=OPTO-TRANSISTOR4}
+  (    1 N-000006 )
+  (    2 N-000004 )
+  (    3 GND )
+  (    4 N-000002 )
+ )
+ ( /4F675703 $noname  U2 OPTO-TRANSISTOR4 {Lib=OPTO-TRANSISTOR4}
+  (    1 N-000006 )
+  (    2 N-000005 )
+  (    3 GND )
+  (    4 N-000003 )
+ )
+ ( /4F675832 $noname  P1 CONN_4 {Lib=CONN_4}
+  (    1 GND )
+  (    2 N-000003 )
+  (    3 N-000002 )
+  (    4 N-000006 )
+ )
+ ( /4F675841 $noname  R2 100 {Lib=R}
+  (    1 GND )
+  (    2 N-000005 )
+ )
+ ( /4F675858 $noname  R1 100 {Lib=R}
+  (    1 GND )
+  (    2 N-000004 )
+ )
+ ( /4F675A4E $noname  R4 10K {Lib=R}
+  (    1 N-000002 )
+  (    2 N-000006 )
+ )
+ ( /4F675A5D $noname  R3 10k {Lib=R}
+  (    1 N-000006 )
+  (    2 N-000003 )
+ )
+)
+*
+{ Allowed footprints by component:
+$component R2
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R1
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R4
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R3
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$endfootprintlist
+}
+{ Pin List by Nets
+Net 1 "GND" "GND"
+ R1 1
+ R2 1
+ P1 1
+ U2 3
+ U1 3
+Net 2 "" ""
+ U1 4
+ P1 3
+ R4 1
+Net 3 "" ""
+ P1 2
+ U2 4
+ R3 2
+Net 4 "" ""
+ R1 2
+ U1 2
+Net 5 "" ""
+ R2 2
+ U2 2
+Net 6 "" ""
+ R3 1
+ R4 2
+ U1 1
+ P1 4
+ U2 1
+}
+#End

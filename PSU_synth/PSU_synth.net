@@ -1,0 +1,187 @@
+# EESchema Netlist Version 1.1 created  Sat 16 Feb 2013 17:44:53 CET
+(
+ ( /511CB98B C2V10 C1 1000µF
+  ( 1 N-000010 )
+  ( 2 GND )
+ )
+ ( /511CB994 C2V10 C2 1000µF
+  ( 1 N-000015 )
+  ( 2 GND )
+ )
+ ( /511CB997 C2V10 C3 2200µF
+  ( 1 N-000014 )
+  ( 2 GND )
+ )
+ ( /511CB98F C2V10 C4 10µF
+  ( 1 +12V )
+  ( 2 GND )
+ )
+ ( /511CBC14 C2V10 C5 10µF
+  ( 1 -12V )
+  ( 2 GND )
+ )
+ ( /511CB999 C2V10 C6 10µF
+  ( 1 +5V )
+  ( 2 GND )
+ )
+ ( /511CB8AF Bridge3 D1 BRIDGE
+  ( 1 N-000015 )
+  ( 2 N-000001 )
+  ( 3 N-000010 )
+  ( 4 N-000012 )
+ )
+ ( /511CB8A7 Bridge3 D2 BRIDGE
+  ( 1 GND )
+  ( 2 N-000013 )
+  ( 3 N-000014 )
+  ( 4 N-000011 )
+ )
+ ( /511CBC26 D4 D3 1N4002
+  ( 1 N-000015 )
+  ( 2 -12V )
+ )
+ ( /511CBAFB D4 D4 1N4002
+  ( 1 +12V )
+  ( 2 N-000010 )
+ )
+ ( /511CBA78 D4 D5 1N4002
+  ( 1 +5V )
+  ( 2 N-000014 )
+ )
+ ( /511CBC4F D4 D6 1N4002
+  ( 1 -12V )
+  ( 2 GND )
+ )
+ ( /511CB9B0 D4 D7 1N4002
+  ( 1 GND )
+  ( 2 +12V )
+ )
+ ( /511CB9C8 D4 D8 1N4002
+  ( 1 GND )
+  ( 2 +5V )
+ )
+ ( /511CBC6F LED-5MM D9 LED
+  ( 1 GND )
+  ( 2 N-000005 )
+ )
+ ( /511CBD34 FUSE5-20 F1 1.5A
+  ( 1 N-000003 )
+  ( 2 N-000009 )
+ )
+ ( /511CBD7B 2PIN_6mm P1 POWER_IN
+  ( 1 N-000002 )
+  ( 2 N-000003 )
+ )
+ ( /511FB6E1 PIN_ARRAY_2X1 P2 5V
+  ( 1 +5V )
+  ( 2 GND )
+ )
+ ( /511FB6A3 2PIN_6mm P3 OUT
+  ( 1 +12V )
+  ( 2 -12V )
+ )
+ ( /511CBC85 R3-5 R1 1.5k
+  ( 1 -12V )
+  ( 2 N-000005 )
+ )
+ ( /511CBD4F 2PIN_6mm SW1 POWER
+  ( 1 N-000002 )
+  ( 2 N-000016 )
+ )
+ ( /511CB8D3 Transfo-simple T1 9V_1A
+  ( 1 N-000009 )
+  ( 2 N-000016 )
+  ( 3 N-000013 )
+  ( 4 N-000011 )
+ )
+ ( /511CBE20 Transfo-double T2 36VCT_1.5A
+  ( 0 GND )
+  ( 1 N-000009 )
+  ( 2 N-000016 )
+  ( 3 N-000001 )
+  ( 4 N-000012 )
+ )
+ ( /511CB95C LM79XX U1 LM7915
+  ( GND GND )
+  ( VI N-000015 )
+  ( VO -12V )
+ )
+ ( /511CB974 LM78XX U2 LM7815
+  ( GND GND )
+  ( VI N-000010 )
+  ( VO +12V )
+ )
+ ( /511CB966 LM78XX U3 LM7805
+  ( GND GND )
+  ( VI N-000014 )
+  ( VO +5V )
+ )
+)
+*
+{ Allowed footprints by component:
+$component C1
+ CP*
+ SM*
+$endlist
+$component C2
+ CP*
+ SM*
+$endlist
+$component C3
+ CP*
+ SM*
+$endlist
+$component C4
+ CP*
+ SM*
+$endlist
+$component C5
+ CP*
+ SM*
+$endlist
+$component C6
+ CP*
+ SM*
+$endlist
+$component D3
+ D?
+ S*
+$endlist
+$component D4
+ D?
+ S*
+$endlist
+$component D5
+ D?
+ S*
+$endlist
+$component D6
+ D?
+ S*
+$endlist
+$component D7
+ D?
+ S*
+$endlist
+$component D8
+ D?
+ S*
+$endlist
+$component D9
+ LED-3MM
+ LED-5MM
+ LED-10MM
+ LED-0603
+ LED-0805
+ LED-1206
+ LEDV
+$endlist
+$component R1
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$endfootprintlist
+}
