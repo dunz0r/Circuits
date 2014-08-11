@@ -1,0 +1,44 @@
+eeschema (2013-may-18)-stable  >> Creation date: fre 20 jun 2014 02:56:54
+#Cmp ( order = Reference )
+| C1         47uF        
+| C2         100uF       
+| C3         100uF       
+| C4         100uF       
+| C5         0,1uF       
+| C6         0,1uF       
+| C7         0,1uF       
+| K1         DC_IN       
+| P1         AUDIO_IN    
+| P2         SPKR_OUT    
+| R1         1k          
+| R2         22k         
+| R3         680         
+| R4         10k         
+| R5         22k         
+| R7         2,7         
+| RV1        10k         
+| U1         LM3886T     
+#End Cmp
+
+#Cmp ( order = Value )
+| 0,1uF        C5        
+| 0,1uF        C6        
+| 0,1uF        C7        
+| 47uF         C1        
+| 100uF        C2        
+| 100uF        C3        
+| 100uF        C4        
+| DC_IN        K1        
+| AUDIO_IN     P1        
+| SPKR_OUT     P2        
+| 2,7          R7        
+| 680          R3        
+| 1k           R1        
+| 10k          R4        
+| 22k          R2        
+| 22k          R5        
+| 10k          RV1       
+| LM3886T      U1        
+#End Cmp
+
+#End List

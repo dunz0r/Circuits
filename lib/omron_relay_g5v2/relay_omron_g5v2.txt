@@ -1,0 +1,10 @@
+Relay OMRON G5V2
+Low Signal Relay
+10 uA to 2A
+
+http://www.omron.com/ecb/products/pry/111/g5v_2.html
+
+GNU - GPL
+NO WARRANTY
+
+

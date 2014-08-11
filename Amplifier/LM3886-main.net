@@ -1,200 +1,254 @@
-# EESchema Netlist Version 1.1 created  tis  4 feb 2014 01:41:44
-(
- ( /52F0254D $noname  C5 0,1uF {Lib=C}
-  (    1 N-000004 )
-  (    2 GND )
- )
- ( /52F02540 $noname  R7 2,7 {Lib=R}
-  (    1 N-000003 )
-  (    2 N-000004 )
- )
- ( /52F0251F $noname  R5 22k {Lib=R}
-  (    1 N-000002 )
-  (    2 N-000003 )
- )
- ( /52F02510 $noname  P2 SPKR_OUT {Lib=CONN_2}
-  (    1 N-000003 )
-  (    2 GND )
- )
- ( /52F024E5 $noname  C4 100uF {Lib=CP1}
-  (    1 GND )
-  (    2 N-000011 )
- )
- ( /52F024C3 $noname  R4 10k {Lib=R}
-  (    1 N-000011 )
-  (    2 VEE )
- )
- ( /52F023C4 $noname  C2 100uF {Lib=CP1}
-  (    1 GND )
-  (    2 VEE )
- )
- ( /52F0239A $noname  C1 47uF {Lib=C}
-  (    1 N-000002 )
-  (    2 GND )
- )
- ( /52F02390 $noname  R3 680 {Lib=R}
-  (    1 N-000006 )
-  (    2 N-000002 )
- )
- ( /52F02338 $noname  C3 100uF {Lib=CP1}
-  (    1 VCC )
-  (    2 GND )
- )
- ( /52F022E0 $noname  K1 DC_IN {Lib=CONN_3}
-  (    1 VEE )
-  (    2 VCC )
-  (    3 GND )
- )
- ( /52F02296 $noname  R2 22k {Lib=R}
-  (    1 N-000008 )
-  (    2 GND )
- )
- ( /52F02267 $noname  R1 1k {Lib=R}
-  (    1 N-000007 )
-  (    2 N-000008 )
- )
- ( /52F02256 $noname  RV1 10k {Lib=POT}
-  (    1 N-000005 )
-  (    2 N-000007 )
-  (    3 GND )
- )
- ( /52F02245 TO220-11  U1 LM3886T {Lib=LM3886T}
-  (    1 VCC )
-  (    3 N-000003 )
-  (    4 VEE )
-  (    5 VCC )
-  (    7 GND )
-  (    8 N-000011 )
-  (    9 N-000006 )
-  (   10 N-000008 )
- )
- ( /52F02135 $noname  P1 AUDIO_IN {Lib=CONN_2}
-  (    1 N-000005 )
-  (    2 GND )
- )
-)
-*
-{ Allowed footprints by component:
-$component C5
- SM*
- C?
- C1-1
-$endlist
-$component R7
- R?
- SM0603
- SM0805
- R?-*
- SM1206
-$endlist
-$component R5
- R?
- SM0603
- SM0805
- R?-*
- SM1206
-$endlist
-$component C4
- CP*
- SM*
-$endlist
-$component R4
- R?
- SM0603
- SM0805
- R?-*
- SM1206
-$endlist
-$component C2
- CP*
- SM*
-$endlist
-$component C1
- SM*
- C?
- C1-1
-$endlist
-$component R3
- R?
- SM0603
- SM0805
- R?-*
- SM1206
-$endlist
-$component C3
- CP*
- SM*
-$endlist
-$component R2
- R?
- SM0603
- SM0805
- R?-*
- SM1206
-$endlist
-$component R1
- R?
- SM0603
- SM0805
- R?-*
- SM1206
-$endlist
-$component U1
- TO*
-$endlist
-$endfootprintlist
-}
-{ Pin List by Nets
-Net 1 "VEE" "VEE"
- U1 4
- K1 1
- R4 2
- C2 2
-Net 2 "" ""
- R5 1
- C1 1
- R3 2
-Net 3 "" ""
- U1 3
- P2 1
- R7 1
- R5 2
-Net 4 "" ""
- R7 2
- C5 1
-Net 5 "" ""
- RV1 1
- P1 1
-Net 6 "" ""
- R3 1
- U1 9
-Net 7 "" ""
- RV1 2
- R1 1
-Net 8 "" ""
- U1 10
- R1 2
- R2 1
-Net 9 "VCC" "VCC"
- C3 1
- K1 2
- U1 5
- U1 1
-Net 10 "GND" "GND"
- C4 1
- RV1 3
- P1 2
- C5 2
- P2 2
- U1 7
- C2 1
- C1 2
- C3 2
- K1 3
- R2 2
-Net 11 "" ""
- C4 2
- R4 1
- U1 8
-}
-#End
+(export (version D)
+  (design
+    (source /home/gabriel/Documents/Circuits/Amplifier/LM3886-main.sch)
+    (date "fre 20 jun 2014 02:34:10")
+    (tool "eeschema (2013-may-18)-stable"))
+  (components
+    (comp (ref C5)
+      (value 0,1uF)
+      (libsource (lib device) (part C))
+      (sheetpath (names /) (tstamps /))
+      (tstamp 52F0254D))
+    (comp (ref R7)
+      (value 2,7)
+      (libsource (lib device) (part R))
+      (sheetpath (names /) (tstamps /))
+      (tstamp 52F02540))
+    (comp (ref R5)
+      (value 22k)
+      (libsource (lib device) (part R))
+      (sheetpath (names /) (tstamps /))
+      (tstamp 52F0251F))
+    (comp (ref P2)
+      (value SPKR_OUT)
+      (libsource (lib conn) (part CONN_2))
+      (sheetpath (names /) (tstamps /))
+      (tstamp 52F02510))
+    (comp (ref C4)
+      (value 100uF)
+      (libsource (lib device) (part CP1))
+      (sheetpath (names /) (tstamps /))
+      (tstamp 52F024E5))
+    (comp (ref R4)
+      (value 10k)
+      (libsource (lib device) (part R))
+      (sheetpath (names /) (tstamps /))
+      (tstamp 52F024C3))
+    (comp (ref C2)
+      (value 100uF)
+      (libsource (lib device) (part CP1))
+      (sheetpath (names /) (tstamps /))
+      (tstamp 52F023C4))
+    (comp (ref R3)
+      (value 680)
+      (libsource (lib device) (part R))
+      (sheetpath (names /) (tstamps /))
+      (tstamp 52F02390))
+    (comp (ref C3)
+      (value 100uF)
+      (libsource (lib device) (part CP1))
+      (sheetpath (names /) (tstamps /))
+      (tstamp 52F02338))
+    (comp (ref K1)
+      (value DC_IN)
+      (libsource (lib conn) (part CONN_3))
+      (sheetpath (names /) (tstamps /))
+      (tstamp 52F022E0))
+    (comp (ref R2)
+      (value 22k)
+      (libsource (lib device) (part R))
+      (sheetpath (names /) (tstamps /))
+      (tstamp 52F02296))
+    (comp (ref R1)
+      (value 1k)
+      (libsource (lib device) (part R))
+      (sheetpath (names /) (tstamps /))
+      (tstamp 52F02267))
+    (comp (ref RV1)
+      (value 10k)
+      (libsource (lib device) (part POT))
+      (sheetpath (names /) (tstamps /))
+      (tstamp 52F02256))
+    (comp (ref U1)
+      (value LM3886T)
+      (footprint TO220-11)
+      (libsource (lib audio) (part LM3886T))
+      (sheetpath (names /) (tstamps /))
+      (tstamp 52F02245))
+    (comp (ref P1)
+      (value AUDIO_IN)
+      (libsource (lib conn) (part CONN_2))
+      (sheetpath (names /) (tstamps /))
+      (tstamp 52F02135))
+    (comp (ref C1)
+      (value 47uF)
+      (libsource (lib device) (part CP1))
+      (sheetpath (names /) (tstamps /))
+      (tstamp 53A38115))
+    (comp (ref C7)
+      (value 0,1uF)
+      (libsource (lib device) (part C))
+      (sheetpath (names /) (tstamps /))
+      (tstamp 53A381BC))
+    (comp (ref C6)
+      (value 0,1uF)
+      (libsource (lib device) (part C))
+      (sheetpath (names /) (tstamps /))
+      (tstamp 53A3822B)))
+  (libparts
+    (libpart (lib device) (part C)
+      (description "Condensateur non polarise")
+      (footprints
+        (fp SM*)
+        (fp C?)
+        (fp C1-1))
+      (fields
+        (field (name Reference) C)
+        (field (name Value) C)
+        (field (name Footprint) ~)
+        (field (name Datasheet) ~))
+      (pins
+        (pin (num 1) (name ~) (type passive))
+        (pin (num 2) (name ~) (type passive))))
+    (libpart (lib device) (part CP1)
+      (description "Condensateur polarise")
+      (footprints
+        (fp CP*)
+        (fp SM*))
+      (fields
+        (field (name Reference) C)
+        (field (name Value) CP1)
+        (field (name Footprint) ~)
+        (field (name Datasheet) ~))
+      (pins
+        (pin (num 1) (name ~) (type passive))
+        (pin (num 2) (name ~) (type passive))))
+    (libpart (lib device) (part POT)
+      (description Potentionmetre)
+      (fields
+        (field (name Reference) RV)
+        (field (name Value) POT)
+        (field (name Footprint) ~)
+        (field (name Datasheet) ~))
+      (pins
+        (pin (num 1) (name 1) (type passive))
+        (pin (num 2) (name 2) (type passive))
+        (pin (num 3) (name 3) (type passive))))
+    (libpart (lib device) (part R)
+      (description Resistance)
+      (footprints
+        (fp R?)
+        (fp SM0603)
+        (fp SM0805)
+        (fp R?-*)
+        (fp SM1206))
+      (fields
+        (field (name Reference) R)
+        (field (name Value) R)
+        (field (name Footprint) ~)
+        (field (name Datasheet) ~))
+      (pins
+        (pin (num 1) (name ~) (type passive))
+        (pin (num 2) (name ~) (type passive))))
+    (libpart (lib conn) (part CONN_2)
+      (description "Symbole general de connecteur")
+      (fields
+        (field (name Reference) P)
+        (field (name Value) CONN_2)
+        (field (name Footprint) ~)
+        (field (name Datasheet) ~))
+      (pins
+        (pin (num 1) (name P1) (type passive))
+        (pin (num 2) (name PM) (type passive))))
+    (libpart (lib conn) (part CONN_3)
+      (description "Symbole general de connecteur")
+      (fields
+        (field (name Reference) K)
+        (field (name Value) CONN_3)
+        (field (name Footprint) ~)
+        (field (name Datasheet) ~))
+      (pins
+        (pin (num 1) (name P1) (type passive))
+        (pin (num 2) (name PM) (type passive))
+        (pin (num 3) (name P3) (type passive))))
+    (libpart (lib audio) (part LM3886T)
+      (description "LM3886, Single 68W Overture Seriers Audio Power Amplifier, with Mute Mode, TO220-11 (MultiWatt)")
+      (docs http://www.ti.com/lit/ds/symlink/lm3886.pdf)
+      (footprints
+        (fp TO*))
+      (fields
+        (field (name Reference) U)
+        (field (name Value) LM3886T)
+        (field (name Footprint) TO220-11))
+      (pins
+        (pin (num 1) (name V+) (type power_in))
+        (pin (num 3) (name OUT) (type output))
+        (pin (num 4) (name V-) (type power_in))
+        (pin (num 5) (name V+) (type power_in))
+        (pin (num 7) (name GND) (type power_in))
+        (pin (num 8) (name MUTE) (type input))
+        (pin (num 9) (name IN-) (type input))
+        (pin (num 10) (name IN+) (type input)))))
+  (libraries
+    (library (logical device)
+      (uri /usr/share/kicad/library/device.lib))
+    (library (logical conn)
+      (uri /usr/share/kicad/library/conn.lib))
+    (library (logical audio)
+      (uri /usr/share/kicad/library/audio.lib)))
+  (nets
+    (net (code 1) (name GND)
+      (node (ref C5) (pin 2))
+      (node (ref C7) (pin 2))
+      (node (ref C6) (pin 2))
+      (node (ref K1) (pin 3))
+      (node (ref C1) (pin 2))
+      (node (ref P1) (pin 2))
+      (node (ref U1) (pin 7))
+      (node (ref RV1) (pin 3))
+      (node (ref C3) (pin 2))
+      (node (ref R2) (pin 2))
+      (node (ref C4) (pin 1))
+      (node (ref P2) (pin 2))
+      (node (ref C2) (pin 1)))
+    (net (code 2) (name VCC)
+      (node (ref C3) (pin 1))
+      (node (ref K1) (pin 2))
+      (node (ref U1) (pin 1))
+      (node (ref U1) (pin 5)))
+    (net (code 3) (name "")
+      (node (ref R1) (pin 2))
+      (node (ref R2) (pin 1))
+      (node (ref U1) (pin 10)))
+    (net (code 4) (name "")
+      (node (ref R3) (pin 2))
+      (node (ref C1) (pin 1)))
+    (net (code 5) (name "")
+      (node (ref C7) (pin 1))
+      (node (ref C4) (pin 2))
+      (node (ref U1) (pin 8))
+      (node (ref R4) (pin 1)))
+    (net (code 6) (name "")
+      (node (ref R1) (pin 1))
+      (node (ref RV1) (pin 2)))
+    (net (code 7) (name "")
+      (node (ref RV1) (pin 1))
+      (node (ref P1) (pin 1)))
+    (net (code 8) (name "")
+      (node (ref R5) (pin 1))
+      (node (ref R3) (pin 1))
+      (node (ref U1) (pin 9)))
+    (net (code 9) (name VEE)
+      (node (ref R4) (pin 2))
+      (node (ref C2) (pin 2))
+      (node (ref K1) (pin 1))
+      (node (ref C6) (pin 1))
+      (node (ref U1) (pin 4)))
+    (net (code 10) (name "")
+      (node (ref R7) (pin 2))
+      (node (ref C5) (pin 1)))
+    (net (code 11) (name "")
+      (node (ref U1) (pin 3))
+      (node (ref P2) (pin 1))
+      (node (ref R7) (pin 1))
+      (node (ref R5) (pin 2)))))

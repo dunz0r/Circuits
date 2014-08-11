@@ -1,38 +1,52 @@
-Cmp-Mod V01 Genere par PcbNew le tis  4 feb 2014 04:39:16
+Cmp-Mod V01 Created by CvPcb (2013-may-18)-stable date = sön 13 jul 2014 01:30:28
 
 BeginCmp
-TimeStamp = /52F0239A;
+TimeStamp = /53A38115;
 Reference = C1;
 ValeurCmp = 47uF;
-IdModule  = C1;
+IdModule  = C2V8;
 EndCmp
 
 BeginCmp
 TimeStamp = /52F023C4;
 Reference = C2;
 ValeurCmp = 100uF;
-IdModule  = C2V10;
+IdModule  = CP;
 EndCmp
 
 BeginCmp
 TimeStamp = /52F02338;
 Reference = C3;
 ValeurCmp = 100uF;
-IdModule  = C2V10;
+IdModule  = CP;
 EndCmp
 
 BeginCmp
 TimeStamp = /52F024E5;
 Reference = C4;
 ValeurCmp = 100uF;
-IdModule  = C2V10;
+IdModule  = CP;
 EndCmp
 
 BeginCmp
 TimeStamp = /52F0254D;
 Reference = C5;
 ValeurCmp = 0,1uF;
-IdModule  = C1;
+IdModule  = C3;
+EndCmp
+
+BeginCmp
+TimeStamp = /53A3822B;
+Reference = C6;
+ValeurCmp = 0,1uF;
+IdModule  = C3;
+EndCmp
+
+BeginCmp
+TimeStamp = /53A381BC;
+Reference = C7;
+ValeurCmp = 0,1uF;
+IdModule  = C3;
 EndCmp
 
 BeginCmp
@@ -66,43 +80,36 @@ EndCmp
 BeginCmp
 TimeStamp = /52F02296;
 Reference = R2;
-ValeurCmp = R;
-IdModule  = R3-5;
+ValeurCmp = 22k;
+IdModule  = R4;
 EndCmp
 
 BeginCmp
 TimeStamp = /52F02390;
 Reference = R3;
 ValeurCmp = 680;
-IdModule  = R3-5;
+IdModule  = R4;
 EndCmp
 
 BeginCmp
 TimeStamp = /52F024C3;
 Reference = R4;
 ValeurCmp = 10k;
-IdModule  = R3-5;
+IdModule  = R4;
 EndCmp
 
 BeginCmp
 TimeStamp = /52F0251F;
 Reference = R5;
 ValeurCmp = 22k;
-IdModule  = R3-5;
-EndCmp
-
-BeginCmp
-TimeStamp = /52F0253C;
-Reference = R6;
-ValeurCmp = R;
-IdModule  = R3-5;
+IdModule  = R4;
 EndCmp
 
 BeginCmp
 TimeStamp = /52F02540;
 Reference = R7;
 ValeurCmp = 2,7;
-IdModule  = R6;
+IdModule  = R8;
 EndCmp
 
 BeginCmp

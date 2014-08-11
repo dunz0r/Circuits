@@ -1,0 +1,39 @@
+PCBNEW-LibModule-V1  sön 13 jul 2014 00:40:47
+# encoding utf-8
+Units mm
+$INDEX
+C2V10
+$EndINDEX
+$MODULE C2V10
+Po 0 0 0 15 41854742 00000000 ~~
+Li C2V10
+Cd Condensateur polarise
+Kw CP
+Sc 0
+AR /52F023C4
+Op 0 0 0
+T0 0 2.54 1.27 1.27 0 0.254 N V 21 N "C2"
+T1 0 -2.54 1.27 1.27 0 0.254 N V 21 N "100uF"
+DC 0 0 4.826 -2.794 0.3048 21
+$PAD
+Sh "1" R 1.778 1.778 0 0 0
+Dr 1.016 0 0
+At STD N 00E0FFFF
+Ne 1 "GND"
+Po -2.54 0
+$EndPAD
+$PAD
+Sh "2" C 1.778 1.778 0 0 0
+Dr 1.016 0 0
+At STD N 00E0FFFF
+Ne 2 "VEE"
+Po 2.54 0
+$EndPAD
+$SHAPE3D
+Na "discret/c_vert_c2v10.wrl"
+Sc 1 1 1
+Of 0 0 0
+Ro 0 0 0
+$EndSHAPE3D
+$EndMODULE C2V10
+$EndLIBRARY

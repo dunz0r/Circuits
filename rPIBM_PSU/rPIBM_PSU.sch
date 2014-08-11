@@ -1,0 +1,405 @@
+EESchema Schematic File Version 2
+LIBS:power
+LIBS:device
+LIBS:transistors
+LIBS:conn
+LIBS:linear
+LIBS:regul
+LIBS:74xx
+LIBS:cmos4000
+LIBS:adc-dac
+LIBS:memory
+LIBS:xilinx
+LIBS:special
+LIBS:microcontrollers
+LIBS:dsp
+LIBS:microchip
+LIBS:analog_switches
+LIBS:motorola
+LIBS:texas
+LIBS:intel
+LIBS:audio
+LIBS:interface
+LIBS:digital-audio
+LIBS:philips
+LIBS:display
+LIBS:cypress
+LIBS:siliconi
+LIBS:opto
+LIBS:atmel
+LIBS:contrib
+LIBS:valves
+LIBS:74xgxx
+LIBS:ac-dc
+LIBS:AMS1117
+LIBS:arduino_shieldsNCL
+LIBS:borniers
+LIBS:brooktre
+LIBS:Carlolib-dev
+LIBS:cmos_ieee
+LIBS:cny70
+LIBS:dc-dc
+LIBS:display_lcd
+LIBS:diy_connectors
+LIBS:diy_diodes
+LIBS:diy_ics
+LIBS:diy_rcl
+LIBS:diy_regulators
+LIBS:diy_switches
+LIBS:diy_transformers
+LIBS:diy_transistors
+LIBS:diy_triac
+LIBS:diy_tubes
+LIBS:dspic
+LIBS:elec-unifil
+LIBS:ftdi
+LIBS:g5v2
+LIBS:gennum
+LIBS:graphic
+LIBS:HBridge
+LIBS:hc11
+LIBS:IntroARM2012-cache
+LIBS:lmopamp
+LIBS:logo
+LIBS:lowvoltage
+LIBS:lpc43xx
+LIBS:maxim
+LIBS:MCP23S17
+LIBS:microchip1
+LIBS:microchip_pic10mcu
+LIBS:microchip_pic12mcu
+LIBS:microchip_pic16mcu
+LIBS:msgeq7
+LIBS:msp430
+LIBS:nxp_armmcu
+LIBS:passives
+LIBS:pic18
+LIBS:powerint
+LIBS:pspice
+LIBS:references
+LIBS:relays
+LIBS:rfcom
+LIBS:R_ponteret
+LIBS:sensors
+LIBS:small_r
+LIBS:st
+LIBS:stm8
+LIBS:stm32
+LIBS:stm32f100
+LIBS:st-microelectronics
+LIBS:supertex
+LIBS:switches
+LIBS:transf
+LIBS:ttl_ieee
+LIBS:video
+LIBS:vreg
+LIBS:zilog
+LIBS:open-project
+EELAYER 27 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date "7 aug 2014"
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L LM2576 U1
+U 1 1 53E3EAFD
+P 4650 2550
+F 0 "U1" H 4300 2800 60  0000 C CNN
+F 1 "LM2576" H 4900 2800 60  0000 C CNN
+F 2 "" H 4650 2550 60  0000 C CNN
+F 3 "" H 4650 2550 60  0000 C CNN
+F 4 "Texas Instruments" H 4650 2900 60  0001 C CNN "Manufacturer"
+	1    4650 2550
+	1    0    0    -1  
+$EndComp
+$Comp
+L CONN_2 P1
+U 1 1 53E3EB5D
+P 2350 1700
+F 0 "P1" V 2300 1700 40  0000 C CNN
+F 1 "BAT" V 2400 1700 40  0000 C CNN
+F 2 "~" H 2350 1700 60  0000 C CNN
+F 3 "~" H 2350 1700 60  0000 C CNN
+	1    2350 1700
+	0    -1   -1   0   
+$EndComp
+$Comp
+L GND #PWR01
+U 1 1 53E3EB80
+P 2250 2450
+F 0 "#PWR01" H 2250 2450 30  0001 C CNN
+F 1 "GND" H 2250 2380 30  0001 C CNN
+F 2 "" H 2250 2450 60  0000 C CNN
+F 3 "" H 2250 2450 60  0000 C CNN
+	1    2250 2450
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR02
+U 1 1 53E3EB90
+P 4750 3250
+F 0 "#PWR02" H 4750 3250 30  0001 C CNN
+F 1 "GND" H 4750 3180 30  0001 C CNN
+F 2 "" H 4750 3250 60  0000 C CNN
+F 3 "" H 4750 3250 60  0000 C CNN
+	1    4750 3250
+	1    0    0    -1  
+$EndComp
+$Comp
+L ZENER D1
+U 1 1 53E3EC0C
+P 5500 2850
+F 0 "D1" H 5500 2950 50  0000 C CNN
+F 1 "1N5822" H 5500 2750 40  0000 C CNN
+F 2 "~" H 5500 2850 60  0000 C CNN
+F 3 "~" H 5500 2850 60  0000 C CNN
+	1    5500 2850
+	0    -1   -1   0   
+$EndComp
+$Comp
+L GND #PWR03
+U 1 1 53E3EC2B
+P 5500 3250
+F 0 "#PWR03" H 5500 3250 30  0001 C CNN
+F 1 "GND" H 5500 3180 30  0001 C CNN
+F 2 "" H 5500 3250 60  0000 C CNN
+F 3 "" H 5500 3250 60  0000 C CNN
+	1    5500 3250
+	1    0    0    -1  
+$EndComp
+$Comp
+L INDUCTOR L1
+U 1 1 53E3EC40
+P 5800 2650
+F 0 "L1" V 5750 2650 40  0000 C CNN
+F 1 "100µH" V 5900 2650 40  0000 C CNN
+F 2 "~" H 5800 2650 60  0000 C CNN
+F 3 "~" H 5800 2650 60  0000 C CNN
+	1    5800 2650
+	0    -1   -1   0   
+$EndComp
+$Comp
+L CP1 C2
+U 1 1 53E3EC54
+P 6200 3150
+F 0 "C2" H 6250 3250 50  0000 L CNN
+F 1 "470µF" H 6250 3050 50  0000 L CNN
+F 2 "~" H 6200 3150 60  0000 C CNN
+F 3 "~" H 6200 3150 60  0000 C CNN
+	1    6200 3150
+	1    0    0    -1  
+$EndComp
+$Comp
+L CP1 C3
+U 1 1 53E3EC66
+P 6550 3150
+F 0 "C3" H 6600 3250 50  0000 L CNN
+F 1 "470µF" H 6600 3050 50  0000 L CNN
+F 2 "~" H 6550 3150 60  0000 C CNN
+F 3 "~" H 6550 3150 60  0000 C CNN
+	1    6550 3150
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR04
+U 1 1 53E3EC9E
+P 6400 3600
+F 0 "#PWR04" H 6400 3600 30  0001 C CNN
+F 1 "GND" H 6400 3530 30  0001 C CNN
+F 2 "" H 6400 3600 60  0000 C CNN
+F 3 "" H 6400 3600 60  0000 C CNN
+	1    6400 3600
+	1    0    0    -1  
+$EndComp
+$Comp
+L CP1 C1
+U 1 1 53E3ED20
+P 3700 2650
+F 0 "C1" H 3750 2750 50  0000 L CNN
+F 1 "100µF" H 3750 2550 50  0000 L CNN
+F 2 "~" H 3700 2650 60  0000 C CNN
+F 3 "~" H 3700 2650 60  0000 C CNN
+	1    3700 2650
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR05
+U 1 1 53E3ED32
+P 3700 3050
+F 0 "#PWR05" H 3700 3050 30  0001 C CNN
+F 1 "GND" H 3700 2980 30  0001 C CNN
+F 2 "" H 3700 3050 60  0000 C CNN
+F 3 "" H 3700 3050 60  0000 C CNN
+	1    3700 3050
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR06
+U 1 1 53E3ED4D
+P 4550 3250
+F 0 "#PWR06" H 4550 3250 30  0001 C CNN
+F 1 "GND" H 4550 3180 30  0001 C CNN
+F 2 "" H 4550 3250 60  0000 C CNN
+F 3 "" H 4550 3250 60  0000 C CNN
+	1    4550 3250
+	1    0    0    -1  
+$EndComp
+$Comp
+L +5V #PWR07
+U 1 1 53E3EDF1
+P 6550 2550
+F 0 "#PWR07" H 6550 2640 20  0001 C CNN
+F 1 "+5V" H 6550 2640 30  0000 C CNN
+F 2 "" H 6550 2550 60  0000 C CNN
+F 3 "" H 6550 2550 60  0000 C CNN
+	1    6550 2550
+	1    0    0    -1  
+$EndComp
+$Comp
+L PWR_FLAG #FLG08
+U 1 1 53E3EE62
+P 2600 2450
+F 0 "#FLG08" H 2600 2545 30  0001 C CNN
+F 1 "PWR_FLAG" H 2600 2630 30  0000 C CNN
+F 2 "" H 2600 2450 60  0000 C CNN
+F 3 "" H 2600 2450 60  0000 C CNN
+	1    2600 2450
+	1    0    0    -1  
+$EndComp
+$Comp
+L PWR_FLAG #FLG09
+U 1 1 53E3EE6F
+P 2250 2250
+F 0 "#FLG09" H 2250 2345 30  0001 C CNN
+F 1 "PWR_FLAG" V 2350 2450 30  0000 C CNN
+F 2 "" H 2250 2250 60  0000 C CNN
+F 3 "" H 2250 2250 60  0000 C CNN
+	1    2250 2250
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	2450 2050 2450 2450
+Wire Wire Line
+	2250 2450 2250 2050
+Wire Wire Line
+	4750 3250 4750 3100
+Wire Wire Line
+	5350 2650 5500 2650
+Connection ~ 5500 2650
+Wire Wire Line
+	5500 3050 5500 3250
+Wire Wire Line
+	6200 2950 6200 2850
+Wire Wire Line
+	6200 2850 6550 2850
+Wire Wire Line
+	6550 2850 6550 2950
+Wire Wire Line
+	6350 2450 6350 2850
+Connection ~ 6350 2850
+Wire Wire Line
+	6550 2650 6100 2650
+Wire Wire Line
+	6200 3350 6200 3450
+Wire Wire Line
+	6200 3450 6550 3450
+Wire Wire Line
+	6550 3450 6550 3350
+Wire Wire Line
+	6400 3600 6400 3450
+Connection ~ 6400 3450
+Wire Wire Line
+	6350 2450 5350 2450
+Connection ~ 6350 2650
+Wire Wire Line
+	3700 3050 3700 2850
+Wire Wire Line
+	4550 3250 4550 3100
+Wire Wire Line
+	6550 2550 6550 2650
+Wire Wire Line
+	2450 2450 3950 2450
+Connection ~ 2600 2450
+Connection ~ 3700 2450
+$Comp
+L GND #PWR010
+U 1 1 53E3F037
+P 7700 3000
+F 0 "#PWR010" H 7700 3000 30  0001 C CNN
+F 1 "GND" H 7700 2930 30  0001 C CNN
+F 2 "" H 7700 3000 60  0000 C CNN
+F 3 "" H 7700 3000 60  0000 C CNN
+	1    7700 3000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7550 2450 7700 2450
+Wire Wire Line
+	7700 2450 7700 2300
+$Comp
+L +5V #PWR011
+U 1 1 53E3F065
+P 7700 2300
+F 0 "#PWR011" H 7700 2390 20  0001 C CNN
+F 1 "+5V" H 7700 2390 30  0000 C CNN
+F 2 "" H 7700 2300 60  0000 C CNN
+F 3 "" H 7700 2300 60  0000 C CNN
+	1    7700 2300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7550 2550 7700 2550
+Wire Wire Line
+	7700 2550 7700 2650
+Wire Wire Line
+	7700 2650 7550 2650
+$Comp
+L CONN_4 P2
+U 1 1 53E3F11D
+P 7200 2600
+F 0 "P2" V 7150 2600 50  0000 C CNN
+F 1 "CONN_4" V 7250 2600 50  0000 C CNN
+F 2 "~" H 7200 2600 60  0000 C CNN
+F 3 "~" H 7200 2600 60  0000 C CNN
+	1    7200 2600
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	7550 2750 7700 2750
+Wire Wire Line
+	7700 2750 7700 3000
+$Comp
+L CONNECTOR P3
+U 1 1 53E3F29A
+P 4300 1650
+F 0 "P3" H 4650 1750 70  0000 C CNN
+F 1 "HOLE" H 4650 1550 70  0000 C CNN
+F 2 "~" H 4300 1650 60  0000 C CNN
+F 3 "~" H 4300 1650 60  0000 C CNN
+	1    4300 1650
+	1    0    0    1   
+$EndComp
+$Comp
+L CONNECTOR P4
+U 1 1 53E3F2A7
+P 4300 1950
+F 0 "P4" H 4650 2050 70  0000 C CNN
+F 1 "HOLE" H 4650 1850 70  0000 C CNN
+F 2 "~" H 4300 1950 60  0000 C CNN
+F 3 "~" H 4300 1950 60  0000 C CNN
+	1    4300 1950
+	1    0    0    -1  
+$EndComp
+NoConn ~ 4300 1950
+NoConn ~ 4300 1650
+Connection ~ 2250 2250
+$EndSCHEMATC

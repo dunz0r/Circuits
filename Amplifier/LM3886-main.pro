@@ -1,13 +1,8 @@
-update=tis  4 feb 2014 18:29:22
+update=sön 13 jul 2014 00:58:02
 version=1
-last_client=eeschema
+last_client=cvpcb
 [general]
 version=1
-[cvpcb]
-version=1
-NetIExt=net
-[cvpcb/libraries]
-EquName1=devcms
 [pcbnew]
 version=1
 PadDrlX=320
@@ -26,7 +21,6 @@ TxtLar=120
 MSegLar=150
 LastNetListRead=LM3886-main.net
 [pcbnew/libraries]
-LibDir=
 LibName1=sockets
 LibName2=connect
 LibName3=discret
@@ -40,6 +34,8 @@ LibName10=pga_sockets
 LibName11=valves
 LibName12=/home/gabriel/Documents/Kretsar/mod/borniers
 LibName13=/home/gabriel/Documents/Kretsar/mod/lmopamp
+LibName14=/home/gabriel/Documents/Circuits/lib/6W_resistor
+LibDir=
 [eeschema]
 version=1
 LibDir=/home/gabriel/Documents/Kretsar/Lib
@@ -103,3 +99,8 @@ LibName28=contrib
 LibName29=valves
 LibName30=audio
 LibName31=lmopamp
+[cvpcb]
+version=1
+NetIExt=net
+[cvpcb/libraries]
+EquName1=devcms

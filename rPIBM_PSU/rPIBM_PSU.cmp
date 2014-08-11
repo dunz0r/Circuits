@@ -1,0 +1,73 @@
+Cmp-Mod V01 Created by CvPcb (2013-may-18)-stable date = tor  7 aug 2014 23:49:26
+
+BeginCmp
+TimeStamp = /53E3ED20;
+Reference = C1;
+ValeurCmp = 100µF;
+IdModule  = C2V10;
+EndCmp
+
+BeginCmp
+TimeStamp = /53E3EC54;
+Reference = C2;
+ValeurCmp = 470µF;
+IdModule  = C2V10;
+EndCmp
+
+BeginCmp
+TimeStamp = /53E3EC66;
+Reference = C3;
+ValeurCmp = 470µF;
+IdModule  = C2V10;
+EndCmp
+
+BeginCmp
+TimeStamp = /53E3EC0C;
+Reference = D1;
+ValeurCmp = 1N5822;
+IdModule  = D4;
+EndCmp
+
+BeginCmp
+TimeStamp = /53E3EC40;
+Reference = L1;
+ValeurCmp = 100µH;
+IdModule  = PIN_ARRAY_2X1;
+EndCmp
+
+BeginCmp
+TimeStamp = /53E3EB5D;
+Reference = P1;
+ValeurCmp = BAT;
+IdModule  = PIN_ARRAY_2X1;
+EndCmp
+
+BeginCmp
+TimeStamp = /53E3F11D;
+Reference = P2;
+ValeurCmp = CONN_4;
+IdModule  = PIN_ARRAY_4x1;
+EndCmp
+
+BeginCmp
+TimeStamp = /53E3F29A;
+Reference = P3;
+ValeurCmp = HOLE;
+IdModule  = 1pin;
+EndCmp
+
+BeginCmp
+TimeStamp = /53E3F2A7;
+Reference = P4;
+ValeurCmp = HOLE;
+IdModule  = 1pin;
+EndCmp
+
+BeginCmp
+TimeStamp = /53E3EAFD;
+Reference = U1;
+ValeurCmp = LM2576;
+IdModule  = Pentawatt_Neutral_Straight_Vertical_TO220-5-T05A;
+EndCmp
+
+EndListe

@@ -1,0 +1,8 @@
+EESchema-DOCLIB  Version 2.0  Date: ven. 23 nov. 2012 15:27:55 CET
+#
+$CMP G5V2
+D Omron relay G5V2
+K Relay
+$ENDCMP
+#
+#End Doc Library
